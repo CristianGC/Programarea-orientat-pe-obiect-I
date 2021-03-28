@@ -4,3 +4,6 @@
 2 Editor de text.
 3 Editor de imagine.
 4 Mine jocă.
+
+Comentariu:
+Voi încerca să dezvolt ceva fără să proiectez aplicaţiile.
