@@ -8,12 +8,7 @@ namespace core\index\Installing_http_or_https_url
         protected static $_instance;
         private static $_url;
 
-        public static function get_url(): string
-        {
-            return Installing_the_http_and_https_url::getInstaence()->get_http_or_https();
-        }
-
-        private function get_http_or_https()
+        public function get_http_or_https()
         {
             if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) 
             {
@@ -27,7 +22,7 @@ namespace core\index\Installing_http_or_https_url
             return self::$_url .= $_SERVER['HTTP_HOST'];
         }
 
-        private static function getInstaence()
+        public static function getInstaence()
         {
             if (self::$_instance == null) 
             {
