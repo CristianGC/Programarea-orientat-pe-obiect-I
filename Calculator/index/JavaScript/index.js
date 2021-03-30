@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () =>
         
             if (this.Checking_if_we_can_start_creating_dynamic_elements(ID))
             {
-                this.Start_creating_dynamic_elements();
+                this.Start_creating_dynamic_elements(ID);
             }
             else
             {
@@ -122,15 +122,21 @@ document.addEventListener("DOMContentLoaded", () =>
             console.log('Citiți documentația.');
         }
 
-        Start_creating_dynamic_elements()
+        Start_creating_dynamic_elements(ID)
         {
             alert('Am început să creez elemente dinamic.');
             console.log('Am început să creez elemente dinamic.');
+
+            this.Calculator = document.getElementById(ID);
         }
     }
 
+    
     new Calculator();
+
     new Calculator('ID_INCORECT');
+
+    new Calculator('Calculator');
 
     class Displaying_messages_from_the_computer
     {
