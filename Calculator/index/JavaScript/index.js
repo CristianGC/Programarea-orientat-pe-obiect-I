@@ -70,12 +70,12 @@ class Calculator
     {
         if (ID == null)
         {
-            this.Display_the_message_after_ID_verification();
+            this.Display_the_message_ID_not_found();
             return false;
         }
         else
         {
-            if (Check_if_there_is_such_an_ID(ID)) 
+            if (this.Check_if_there_is_such_an_ID(ID)) 
             {
                 
             }
@@ -120,7 +120,5 @@ class Calculator
 }
 
 new Calculator();
-
-
-
+new Calculator('ID_INCORECT');
 
