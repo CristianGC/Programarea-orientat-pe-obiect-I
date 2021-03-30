@@ -56,7 +56,7 @@ class Calculator
     constructor(ID)
     {
     
-        if (this.Checking_if_we_can_start_creating_dynamic_elements(ID)) 
+        if (this.Checking_if_we_can_start_creating_dynamic_elements(ID))
         {
             
         }
@@ -68,12 +68,22 @@ class Calculator
 
     Checking_if_we_can_start_creating_dynamic_elements(ID)
     {
-        if (ID == null) 
+        if (ID == null)
         {
+            this.Display_the_message_after_ID_verification();
             return false;
         }
         else
         {
+            if (Check_if_there_is_such_an_ID(ID)) 
+            {
+                
+            }
+            else
+            {
+                
+            }
+
             return true;
         }
     }
@@ -82,14 +92,25 @@ class Calculator
     {
         if(document.getElementById(ID))
         {
-
+            return true;
+        }
+        else
+        {
+            this.Display_the_message_ID_is_incorrect();
+            return false;
         }
     }
 
-    Display_the_message_after_ID_verification()
+    Display_the_message_ID_not_found()
     {
-        alert('Pentru a crea Calculator: ID-ul trebuie specificat. Pentru un div.');
-        console.log('Pentru a crea Calculator: ID-ul trebuie specificat. Pentru un div.');
+        alert('Deci ID-ul nu a fost găsit.');
+        console.log('Deci ID-ul nu a fost găsit.');
+    }
+
+    Display_the_message_ID_is_incorrect()
+    {
+        alert('ID-ul introdus este incorect.');
+        console.log('ID-ul introdus este incorect.');
     }
 
     Create_Dynamic_Elements()
@@ -99,3 +120,7 @@ class Calculator
 }
 
 new Calculator();
+
+
+
+
