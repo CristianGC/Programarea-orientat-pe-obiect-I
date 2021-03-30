@@ -5,6 +5,7 @@
     {
         protected static $_instance;
         private static $_url;
+        private static $_Index_Instance_Start;
 
         public static function get_Url(): string
         {
@@ -22,10 +23,10 @@
                 self::$_url = 'http://';
             }
         
-            return self::$_url .= $_SERVER['HTTP_HOST'];
+            return self::$_url .= $_SERVER['HTTP_HOST'] . '/';
         }
 
-        private static function getInstaence()
+        private static function getInstaence(): self
         {
             if (self::$_instance == null) 
             {
@@ -52,5 +53,7 @@
             
         }
     }
+
+    define( '_CORE_SITE_URL__GC', Installing_the_http_and_https_url::get_Url() );
 
 ?>
