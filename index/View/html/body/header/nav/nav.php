@@ -1,5 +1,5 @@
 <?php
-    require_once './core/index/Installing_the_http_and_https_url.php'
+    require_once './core/Installing_the_http_and_https_url.php'
 ?>
 
 <nav>
