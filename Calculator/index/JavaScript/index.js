@@ -78,6 +78,13 @@ class Calculator
         }
     }
 
+    Check_if_there_is_such_an_ID(ID)
+    {
+        if(document.getElementById(ID))
+        {
+
+        }
+    }
 
 }
 
