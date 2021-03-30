@@ -1,81 +1,63 @@
-
-console.log('index.js Start');
-
-/*
-    Decizia de a face totul dinamic.
-    Sau parțial.
-*/
-
-class User
+document.addEventListener("DOMContentLoaded", () => 
 {
-    constructor(name)
-    {
-        this.name = name;
-    }
-}
+    console.log('index.js Start');
 
-let Voce = 
-{
-    Salut()
-    {
-        console.log( 'Salut ma numesc: ' + this.name );
-    }
-}
-
-Object.assign(User.prototype, Voce);
-
-new User('Cristian').Salut();
-
-class Calculator
-{
     /*
-        0 Crearea tuturor elementelor dinamic.
-        1 Titlu.
-        2 Butonul minus.
-        3 Butonul maxim.
-        4 Butonul exit.
-        5 Afișăm ce sa scris și rezultatul. În format șir.
-        7 Butonul CE
-        7 Butonul C
-        7 Butonul Scoateți elementul de la capătul liniei..
-        6 Butonul %
-        7 Butonul /
-        7 Butonul *
-        7 Butonul -
-        7 Butonul +
-        7 Butonul =
-        7 Butoanele 0 1 2 3 4 5 6 7 8 9.
-        7 Butonul ,
-        7 Butonul pentru a schimba numărul în pozitiv sau negativ.
-        7 Butonul pentru a schimba numărul în pozitiv sau negativ.
-
+        Decizia de a face totul dinamic.
+        Sau parțial.
     */
 
-    Calculator;
-
-    constructor(ID)
+    class User
     {
-    
-        if (this.Checking_if_we_can_start_creating_dynamic_elements(ID))
+        constructor(name)
         {
-            
-        }
-        else
-        {
-            
+            this.name = name;
         }
     }
 
-    Checking_if_we_can_start_creating_dynamic_elements(ID)
+    let Voce = 
     {
-        if (ID == null)
+        Salut()
         {
-            this.Display_the_message_ID_not_found();
-            return false;
+            console.log( 'Salut ma numesc: ' + this.name );
         }
-        else
+    }
+
+    Object.assign(User.prototype, Voce);
+
+    new User('Cristian').Salut();
+
+    class Calculator
+    {
+        /*
+            0 Crearea tuturor elementelor dinamic.
+            1 Titlu.
+            2 Butonul minus.
+            3 Butonul maxim.
+            4 Butonul exit.
+            5 Afișăm ce sa scris și rezultatul. În format șir.
+            7 Butonul CE
+            7 Butonul C
+            7 Butonul Scoateți elementul de la capătul liniei..
+            6 Butonul %
+            7 Butonul /
+            7 Butonul *
+            7 Butonul -
+            7 Butonul +
+            7 Butonul =
+            7 Butoanele 0 1 2 3 4 5 6 7 8 9.
+            7 Butonul ,
+            7 Butonul pentru a schimba numărul în pozitiv sau negativ.
+            7 Butonul pentru a schimba numărul în pozitiv sau negativ.
+
+        */
+
+        Calculator;
+
+        constructor(ID)
         {
-            if (this.Check_if_there_is_such_an_ID(ID)) 
+        
+            if (this.Checking_if_we_can_start_creating_dynamic_elements(ID))
             {
                 
             }
@@ -83,42 +65,67 @@ class Calculator
             {
                 
             }
-
-            return true;
         }
-    }
 
-    Check_if_there_is_such_an_ID(ID)
-    {
-        if(document.getElementById(ID))
+        Checking_if_we_can_start_creating_dynamic_elements(ID)
         {
-            return true;
+            if (ID == null)
+            {
+                this.Display_the_message_ID_not_found();
+                return false;
+            }
+            else
+            {
+                if (this.Check_if_there_is_such_an_ID(ID)) 
+                {
+                    
+                }
+                else
+                {
+                    
+                }
+
+                return true;
+            }
         }
-        else
+
+        Check_if_there_is_such_an_ID(ID)
         {
-            this.Display_the_message_ID_is_incorrect();
-            return false;
+            if(document.getElementById(ID))
+            {
+                return true;
+            }
+            else
+            {
+                this.Display_the_message_ID_is_incorrect();
+                return false;
+            }
+        }
+
+        Display_the_message_ID_not_found()
+        {
+            alert('Deci ID-ul nu a fost găsit.');
+            console.log('Deci ID-ul nu a fost găsit.');
+        }
+
+        Display_the_message_ID_is_incorrect()
+        {
+            alert('ID-ul introdus este incorect.');
+            console.log('ID-ul introdus este incorect.');
+        }
+
+        Create_Dynamic_Elements()
+        {
+
         }
     }
 
-    Display_the_message_ID_not_found()
-    {
-        alert('Deci ID-ul nu a fost găsit.');
-        console.log('Deci ID-ul nu a fost găsit.');
-    }
+    new Calculator();
+    new Calculator('ID_INCORECT');
 
-    Display_the_message_ID_is_incorrect()
-    {
-        alert('ID-ul introdus este incorect.');
-        console.log('ID-ul introdus este incorect.');
-    }
 
-    Create_Dynamic_Elements()
-    {
+    alert('DOM gata!');
+    console.log('DOM gata!');
 
-    }
-}
-
-new Calculator();
-new Calculator('ID_INCORECT');
+});
 
