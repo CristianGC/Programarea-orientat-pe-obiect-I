@@ -1,6 +1,11 @@
 
 console.log('index.js Start');
 
+/*
+    Decizia de a face totul dinamic.
+    Sau parțial.
+*/
+
 class User
 {
     constructor(name)
