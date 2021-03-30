@@ -29,6 +29,8 @@ document.addEventListener("DOMContentLoaded", () =>
 
     new User('Cristian').Salut();
 
+//------------------------------------------------------------------------------------------------------------------
+
     class Calculator
     {
         /*
@@ -61,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () =>
         
             if (this.Checking_if_we_can_start_creating_dynamic_elements(ID))
             {
-                
+                this.Start_creating_dynamic_elements();
             }
             else
             {
@@ -122,7 +124,8 @@ document.addEventListener("DOMContentLoaded", () =>
 
         Start_creating_dynamic_elements()
         {
-            
+            alert('Am început să creez elemente dinamic.');
+            console.log('Am început să creez elemente dinamic.');
         }
     }
 
@@ -131,7 +134,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
     class Displaying_messages_from_the_computer
     {
-        
+
     }
 
 
