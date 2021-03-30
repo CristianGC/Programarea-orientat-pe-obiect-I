@@ -129,6 +129,11 @@ document.addEventListener("DOMContentLoaded", () =>
     new Calculator();
     new Calculator('ID_INCORECT');
 
+    class Displaying_messages_from_the_computer
+    {
+        
+    }
+
 
 
     alert('DOM gata!');
