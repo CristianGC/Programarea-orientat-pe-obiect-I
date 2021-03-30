@@ -1,0 +1,9 @@
+#Calculator
+{
+    background-color: rgb(126, 122, 122);
+    width: 92%;
+    height: 92%;
+    margin: 4%;
+
+    z-index: 1;
+}
