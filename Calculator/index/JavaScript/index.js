@@ -1,5 +1,5 @@
 
-console.log('index.js Start');
+console.log('index.js Start');;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 /*
     Decizia de a face totul dinamic.
@@ -10,7 +10,7 @@ class User
 {
     constructor(name)
     {
-        this.name = name;
+        this.name = name;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     }
 }
 
@@ -18,13 +18,13 @@ let Voce =
 {
     Salut()
     {
-        console.log( 'Salut ma numesc: ' + this.name );
+        console.log( 'Salut ma numesc: ' + this.name );;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     }
 }
 
-Object.assign(User.prototype, Voce);;
+Object.assign(User.prototype, Voce);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-new User('Cristian').Salut();
+new User('Cristian').Salut();;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 class Calculator
 {
