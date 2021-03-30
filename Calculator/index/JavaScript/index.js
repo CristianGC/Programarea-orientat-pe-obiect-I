@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () =>
             }
             else
             {
-                
+                this.Display_the_message_Read_the_documentation();
             }
         }
 
@@ -78,14 +78,12 @@ document.addEventListener("DOMContentLoaded", () =>
             {
                 if (this.Check_if_there_is_such_an_ID(ID)) 
                 {
-                    
+                    return true;
                 }
                 else
                 {
-                    
+                    return false;
                 }
-
-                return true;
             }
         }
 
@@ -114,9 +112,15 @@ document.addEventListener("DOMContentLoaded", () =>
             console.log('ID-ul introdus este incorect.');
         }
 
-        Create_Dynamic_Elements()
+        Display_the_message_Read_the_documentation()
         {
+            alert('Citiți documentația.');
+            console.log('Citiți documentația.');
+        }
 
+        Start_creating_dynamic_elements()
+        {
+            
         }
     }
 
