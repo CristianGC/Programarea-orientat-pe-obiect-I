@@ -7,3 +7,8 @@
 
 Comentariu:
 Voi încerca să dezvolt ceva fără să proiectez aplicaţiile.
+
+Calculator versiunea-0:
+
+    Decizia de a face totul dinamic.
+    Sau parțial.
