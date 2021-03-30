@@ -86,6 +86,16 @@ class Calculator
         }
     }
 
+    Display_the_message_after_ID_verification()
+    {
+        alert('Pentru a crea Calculator: ID-ul trebuie specificat. Pentru un div.');
+        console.log('Pentru a crea Calculator: ID-ul trebuie specificat. Pentru un div.');
+    }
+
+    Create_Dynamic_Elements()
+    {
+
+    }
 }
 
 new Calculator();
