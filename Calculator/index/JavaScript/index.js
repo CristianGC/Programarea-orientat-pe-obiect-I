@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () =>
     /*
         Decizia de a face totul dinamic.
         Sau parțial.
+
+        După un timp, mi-am dat seama că vreau să fac o clasă specială doar pentru trimiterea de mesaje.
     */
 
     class User
@@ -126,6 +128,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
     new Calculator();
     new Calculator('ID_INCORECT');
+
 
 
     alert('DOM gata!');
