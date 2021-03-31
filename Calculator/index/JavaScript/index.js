@@ -77,7 +77,8 @@ document.addEventListener("DOMContentLoaded", () =>
         // Masivul pentru structuri.
         __Title__Primitive_objects_array_of_structure_for_object = 
         [
-            this.__HTML_object
+            this.__HTML_object,
+            this.__HTML_class
         ]
 
         // Obiectul de bază.
@@ -177,13 +178,14 @@ document.addEventListener("DOMContentLoaded", () =>
             // Creează dinamic un obiect html.
             this.#Creating_html_objects(this.__Title, 'h1');
 
-            console.log(this.__Title.HTML_object);
+            console.log(this.__Title._HTML_object);
         }
 
         // Am commit CristianGC xa xa
         #Creating_html_objects(_Saving_the_object, _An_html_indicator_for_creating_a_specific_object)
         {
             _Saving_the_object._HTML_object = this.#Create_an_html_object_and_return_the_result(_An_html_indicator_for_creating_a_specific_object);
+            // Acum trebuie să adaug o clasă la obiectul HTML dinamic.
         }
         
         #Create_an_html_object_and_return_the_result(_Html_objects_Type)
