@@ -82,29 +82,29 @@ document.addEventListener("DOMContentLoaded", () =>
         __Butonul_Final_product; // =
 
 
-        constructor(ID)
+        constructor(_ID)
         {
         
-            if (this.Checking_if_we_can_start_creating_dynamic_elements(ID))
+            if (this.#Checking_if_we_can_start_creating_dynamic_elements(_ID))
             {
-                this.Start_creating_dynamic_elements(ID);
+                this.#Start_creating_dynamic_elements(_ID);
             }
             else
             {
-                this.Display_the_message_Read_the_documentation();
+                this.#Display_the_message_Read_the_documentation();
             }
         }
 
-        Checking_if_we_can_start_creating_dynamic_elements(ID)
+        #Checking_if_we_can_start_creating_dynamic_elements(_ID)
         {
-            if (ID == null)
+            if (_ID == null)
             {
-                this.Display_the_message_ID_not_found();
+                this.#Display_the_message_ID_not_found();
                 return false;
             }
             else
             {
-                if (this.Check_if_there_is_such_an_ID(ID)) 
+                if (this.#Check_if_there_is_such_an_ID(_ID)) 
                 {
                     return true;
                 }
@@ -115,45 +115,45 @@ document.addEventListener("DOMContentLoaded", () =>
             }
         }
 
-        Check_if_there_is_such_an_ID(ID)
+        #Check_if_there_is_such_an_ID(_ID)
         {
-            if(document.getElementById(ID))
+            if(document.getElementById(_ID))
             {
                 return true;
             }
             else
             {
-                this.Display_the_message_ID_is_incorrect();
+                this.#Display_the_message_ID_is_incorrect();
                 return false;
             }
         }
 
-        Display_the_message_ID_not_found()
+        #Display_the_message_ID_not_found()
         {
-            this.Display_Message_Alert_and_Console('Deci ID-ul nu a fost găsit.');
+            this.#Display_Message_Alert_and_Console('Deci ID-ul nu a fost găsit.');
         }
 
-        Display_the_message_ID_is_incorrect()
+        #Display_the_message_ID_is_incorrect()
         {
-            this.Display_Message_Alert_and_Console('ID-ul introdus este incorect.');
+            this.#Display_Message_Alert_and_Console('ID-ul introdus este incorect.');
         }
 
-        Display_the_message_Read_the_documentation()
+        #Display_the_message_Read_the_documentation()
         {
-            this.Display_Message_Alert_and_Console('Citiți documentația.');
+            this.#Display_Message_Alert_and_Console('Citiți documentația.');
         }
 
-        Start_creating_dynamic_elements(ID)
+        #Start_creating_dynamic_elements(_ID)
         {
-            this.Display_Message_Alert_and_Console('Am început să creez elemente dinamic.');
+            this.#Display_Message_Alert_and_Console('Am început să creez elemente dinamic.');
 
-            this.__Calculator = document.getElementById(ID);
+            this.__Calculator = document.getElementById(_ID);
         }
 
-        Display_Message_Alert_and_Console(__Message)
+        #Display_Message_Alert_and_Console(_Message)
         {
-            alert( __Message );
-            console.log( __Message );
+            alert( _Message );
+            console.log( _Message );
         }
     }
 
