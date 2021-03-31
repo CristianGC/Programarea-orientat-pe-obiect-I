@@ -106,30 +106,33 @@ document.addEventListener("DOMContentLoaded", () =>
 
         Display_the_message_ID_not_found()
         {
-            alert('Deci ID-ul nu a fost găsit.');
-            console.log('Deci ID-ul nu a fost găsit.');
+            this.Display_Message_Alert_and_Console('Deci ID-ul nu a fost găsit.');
         }
 
         Display_the_message_ID_is_incorrect()
         {
-            alert('ID-ul introdus este incorect.');
-            console.log('ID-ul introdus este incorect.');
+            this.Display_Message_Alert_and_Console('ID-ul introdus este incorect.');
         }
 
         Display_the_message_Read_the_documentation()
         {
-            alert('Citiți documentația.');
-            console.log('Citiți documentația.');
+            this.Display_Message_Alert_and_Console('Citiți documentația.');
         }
 
         Start_creating_dynamic_elements(ID)
         {
-            alert('Am început să creez elemente dinamic.');
-            console.log('Am început să creez elemente dinamic.');
+            this.Display_Message_Alert_and_Console('Am început să creez elemente dinamic.');
 
             this.Calculator = document.getElementById(ID);
         }
+
+        Display_Message_Alert_and_Console(Message)
+        {
+            alert( Message );
+            console.log( Message );
+        }
     }
+
 
     
     new Calculator();
