@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () =>
         [
             { _HTML_object: {} },
             { _HTML_tags: 'h1' },
-            { _HTML_class: ['Class h1 Start', 'Class h2 Stop'] }
+            { _HTML_class: ['Class-h1-Start', 'Class-h2-Stop'] }
         ]
 
         // Obiectul de bază.
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () =>
         [
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class input start', 'Class  input stop'] }
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
         ]
  
         // Obiectul de bază.
@@ -189,13 +189,16 @@ document.addEventListener("DOMContentLoaded", () =>
 
             // Creează dinamic un obiect html.
             this.#Creating_html_objects(this.__Title);
+            this.#Add_classes_for_the_html_object(this.__Title);
 
             // Creează dinamic un obiect html.
             this.#Creating_html_objects(this.__The_minus_button);
+            this.#Add_classes_for_the_html_object(this.__The_minus_button);
 
             console.log(this.__Title);
             console.log(this.__The_minus_button);
 
+            
 
         }
 
@@ -230,7 +233,7 @@ document.addEventListener("DOMContentLoaded", () =>
                 _Saving_the_object._HTML_object.classList.add(element);
             });
         }
-          
+
     }
 
 
