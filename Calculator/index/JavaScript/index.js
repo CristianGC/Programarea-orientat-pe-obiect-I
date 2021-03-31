@@ -83,7 +83,17 @@ document.addEventListener("DOMContentLoaded", () =>
 
         // Obiectul de bază.
         __Title = this.#Configuring_primitive_objects(this.__Title__Primitive_objects_array_of_structure_for_object);
-        __The_minus_button;
+
+         // Masivul pentru structuri.
+         __The_minus_button__Primitive_objects_array_of_structure_for_object = 
+         [
+             this.__HTML_object,
+             this.__HTML_class
+         ]
+ 
+        // Obiectul de bază.
+        __The_minus_button = this.#Configuring_primitive_objects(this.__The_minus_button__Primitive_objects_array_of_structure_for_object);
+        
         __Maximum_button;
         __Exit_button;
         __We_display_what_was_written_and_the_result;
@@ -180,9 +190,17 @@ document.addEventListener("DOMContentLoaded", () =>
 
             this.#Add_classes_for_the_html_object(this.__Title, ['Class-1','Class-2','Class-3']);
 
+            this.#Creating_html_objects(this.__The_minus_button, 'input');
+
+            this.#Add_classes_for_the_html_object(this.__The_minus_button, ['Class-1-input','Class-2-input','Class-3-input']);
+
             console.log(this.__Title);
             console.log(this.__Title._HTML_object);
             console.log(this.__Title._HTML_class);
+
+            console.log(this.__The_minus_button);
+            console.log(this.__The_minus_button._HTML_object);
+            console.log(this.__The_minus_button._HTML_class);
 
         }
 
@@ -208,7 +226,6 @@ document.addEventListener("DOMContentLoaded", () =>
             _Html_objects_Class_List.forEach(element =>
             {
                 _Saving_the_object._HTML_object.classList.add(element);
-                console.log(element);
             });
         }
         
