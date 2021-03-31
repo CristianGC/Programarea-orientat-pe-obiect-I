@@ -75,21 +75,23 @@ document.addEventListener("DOMContentLoaded", () =>
         };
 
         // Masivul pentru structuri.
-        __Title__Primitive_objects_array_of_structure_for_object = 
+        __Title__Primitive_objects_array_of_structure_for_object =
         [
-            this.__HTML_object,
-            this.__HTML_class
+            { _HTML_object: {} },
+            { _HTML_tags: 'h1' },
+            { _HTML_class: ['Class h1 Start', 'Class h2 Stop'] }
         ]
 
         // Obiectul de bază.
         __Title = this.#Configuring_primitive_objects(this.__Title__Primitive_objects_array_of_structure_for_object);
 
-         // Masivul pentru structuri.
-         __The_minus_button__Primitive_objects_array_of_structure_for_object = 
-         [
-             this.__HTML_object,
-             this.__HTML_class
-         ]
+        // Masivul pentru structuri.
+        __The_minus_button__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class input start', 'Class  input stop'] }
+        ]
  
         // Obiectul de bază.
         __The_minus_button = this.#Configuring_primitive_objects(this.__The_minus_button__Primitive_objects_array_of_structure_for_object);
@@ -111,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () =>
         __Butonul_Assembly; // +
         __Butonul_Final_product; // =
 
-
+        
         constructor(_ID)
         {
         
@@ -186,28 +188,21 @@ document.addEventListener("DOMContentLoaded", () =>
             this.__Calculator = document.getElementById(_ID);
 
             // Creează dinamic un obiect html.
-            this.#Creating_html_objects(this.__Title, 'h1');
+            this.#Creating_html_objects(this.__Title);
 
-            this.#Add_classes_for_the_html_object(this.__Title, ['Class-1','Class-2','Class-3']);
-
-            this.#Creating_html_objects(this.__The_minus_button, 'input');
-
-            this.#Add_classes_for_the_html_object(this.__The_minus_button, ['Class-1-input','Class-2-input','Class-3-input']);
+            // Creează dinamic un obiect html.
+            this.#Creating_html_objects(this.__The_minus_button);
 
             console.log(this.__Title);
-            console.log(this.__Title._HTML_object);
-            console.log(this.__Title._HTML_class);
-
             console.log(this.__The_minus_button);
-            console.log(this.__The_minus_button._HTML_object);
-            console.log(this.__The_minus_button._HTML_class);
+
 
         }
 
         // Am commit CristianGC xa xa
-        #Creating_html_objects(_Saving_the_object, _An_html_indicator_for_creating_a_specific_object)
+        #Creating_html_objects(_Saving_the_object)
         {
-            return _Saving_the_object._HTML_object = this.#Create_an_html_object_and_return_the_result(_An_html_indicator_for_creating_a_specific_object);
+            _Saving_the_object._HTML_object = this.#Create_an_html_object_and_return_the_result(_Saving_the_object._HTML_tags);
         }
         
         #Create_an_html_object_and_return_the_result(_Html_objects_Type)
@@ -246,9 +241,9 @@ document.addEventListener("DOMContentLoaded", () =>
 
 
     
-    new Calculator();
+    //new Calculator();
 
-    new Calculator('ID_INCORECT');
+    //new Calculator('ID_INCORECT');
 
     new Calculator('Calculator');
 
