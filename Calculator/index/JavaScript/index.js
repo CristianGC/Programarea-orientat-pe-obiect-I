@@ -64,16 +64,6 @@ document.addEventListener("DOMContentLoaded", () =>
         __Calculator;
 
         // Structura pentru crearea obiectelor primitive.
-        __HTML_object =
-        {
-            _HTML_object: null
-        };
-
-        __HTML_class =
-        {
-            _HTML_class: null
-        };
-
         // Masivul pentru structuri.
         __Title__Primitive_objects_array_of_structure_for_object =
         [
@@ -85,6 +75,7 @@ document.addEventListener("DOMContentLoaded", () =>
         // Obiectul de bază.
         __Title = this.#Configuring_primitive_objects(this.__Title__Primitive_objects_array_of_structure_for_object);
 
+        // Structura pentru crearea obiectelor primitive.
         // Masivul pentru structuri.
         __The_minus_button__Primitive_objects_array_of_structure_for_object =
         [
@@ -112,6 +103,7 @@ document.addEventListener("DOMContentLoaded", () =>
         __Butonul_Decreasing; // -
         __Butonul_Assembly; // +
         __Butonul_Final_product; // =
+
 
         
         constructor(_ID)
@@ -188,18 +180,20 @@ document.addEventListener("DOMContentLoaded", () =>
             this.__Calculator = document.getElementById(_ID);
 
             // Creează dinamic un obiect html.
-            this.#Creating_html_objects(this.__Title);
-            this.#Add_classes_for_the_html_object(this.__Title);
+            this.#Start_creating_html_object(this.__Title);
 
             // Creează dinamic un obiect html.
-            this.#Creating_html_objects(this.__The_minus_button);
-            this.#Add_classes_for_the_html_object(this.__The_minus_button);
+            this.#Start_creating_html_object(this.__The_minus_button);
 
             console.log(this.__Title);
             console.log(this.__The_minus_button);
-
             
+        }
 
+        #Start_creating_html_object(_Objects)
+        {
+            this.#Creating_html_objects(_Objects);
+            this.#Add_classes_for_the_html_object(_Objects);
         }
 
         // În această funcție, volum aduna toate structurile, pentru crearea obiectelor primitive.
