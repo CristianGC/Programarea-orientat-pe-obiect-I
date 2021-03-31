@@ -167,8 +167,6 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
         ]
 
-
-
         /*
             Aceste butoane sunt încă în curs de traducere.
         */   
@@ -334,21 +332,8 @@ document.addEventListener("DOMContentLoaded", () =>
 
             this.#Configuring_All_primitive_objects();
 
-            // Creează dinamic un obiect html.
-            this.#Start_creating_html_object(this.__Title);
+            this.#Start_creating_all_html_objects();
 
-            // Creează dinamic un obiect html.
-            this.#Start_creating_html_object(this.__The_minus_button);
-
-            console.log(this.__Title);
-            console.log(this.__The_minus_button);
-
-        }
-
-        #Start_creating_html_object(_Objects)
-        {
-            this.#Creating_html_objects(_Objects);
-            this.#Add_classes_for_the_html_object(_Objects);
         }
 
         // În această funcție, volum aduna toate structurile, pentru crearea obiectelor primitive.
@@ -384,9 +369,17 @@ document.addEventListener("DOMContentLoaded", () =>
             this.__Butonul_Final_product = this.#Configuring_primitive_objects(this.__Butonul_Final_product__Primitive_objects_array_of_structure_for_object);
         }
 
+        // Creează dinamic un obiect html.
+        #Start_creating_html_object(_Objects)
+        {
+            this.#Creating_html_objects(_Objects);
+            this.#Add_classes_for_the_html_object(_Objects);
+        }
+
         #Creating_html_objects(_Saving_the_object)
         {
             _Saving_the_object._HTML_object = document.createElement(_Saving_the_object._HTML_tags);
+            console.log('__Creating_html_objects Finis. NAME: ' + _Saving_the_object._HTML_object_Name);
         }
         
         #Add_classes_for_the_html_object(_Saving_the_object)
@@ -395,6 +388,26 @@ document.addEventListener("DOMContentLoaded", () =>
             {
                 _Saving_the_object._HTML_object.classList.add(element);
             });
+            console.log('___Add_classes_for_the_html_object Finis. NAME: ' + _Saving_the_object._HTML_object_Name);
+        }
+
+        // Creează toate obiectele html dinamic.
+        #Start_creating_all_html_objects()
+        {
+            this.#Start_creating_html_object(this.__Title);
+            this.#Start_creating_html_object(this.__The_minus_button);
+            this.#Start_creating_html_object(this.__Maximum_button);
+            this.#Start_creating_html_object(this.__Exit_button);
+            this.#Start_creating_html_object(this.__We_display_what_was_written_and_the_result);
+            this.#Start_creating_html_object(this.__Button_CE);
+            this.#Start_creating_html_object(this.__Button_C);
+            this.#Start_creating_html_object(this.__Button_Remove_the_item_from_the_end_of_the_line);
+            this.#Start_creating_html_object(this.__Butonul_Percent);
+            this.#Start_creating_html_object(this.__Butonul_Divided);
+            this.#Start_creating_html_object(this.__Butonul_Multiplication);
+            this.#Start_creating_html_object(this.__Butonul_Decreasing);
+            this.#Start_creating_html_object(this.__Butonul_Assembly);
+            this.#Start_creating_html_object(this.__Butonul_Final_product);
         }
 
     }
