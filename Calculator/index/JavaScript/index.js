@@ -154,6 +154,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
             this.__Calculator = document.getElementById(_ID);
 
+            // Creează dinamic un obiect html.
             this.#Creating_html_objects(this.__Title, 'h1');
 
             console.log(this.__Title.HTML_object);
