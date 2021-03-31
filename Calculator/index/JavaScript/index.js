@@ -386,7 +386,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
         #Creating_html_objects(_Saving_the_object)
         {
-            _Saving_the_object._HTML_object = this.#Create_an_html_object_and_return_the_result(_Saving_the_object._HTML_tags);
+            _Saving_the_object._HTML_object = document.createElement(_Saving_the_object._HTML_tags);
         }
         
         #Create_an_html_object_and_return_the_result(_Html_objects_Type)
