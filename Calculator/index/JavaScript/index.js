@@ -178,21 +178,40 @@ document.addEventListener("DOMContentLoaded", () =>
             // Creează dinamic un obiect html.
             this.#Creating_html_objects(this.__Title, 'h1');
 
+            this.#Add_classes_for_the_html_object(this.__Title, ['Class-1','Class-2','Class-3']);
+
+            console.log(this.__Title);
             console.log(this.__Title._HTML_object);
+            console.log(this.__Title._HTML_class);
+
         }
 
         // Am commit CristianGC xa xa
         #Creating_html_objects(_Saving_the_object, _An_html_indicator_for_creating_a_specific_object)
         {
-            _Saving_the_object._HTML_object = this.#Create_an_html_object_and_return_the_result(_An_html_indicator_for_creating_a_specific_object);
-            // Acum trebuie să adaug o clasă la obiectul HTML dinamic.
+            return _Saving_the_object._HTML_object = this.#Create_an_html_object_and_return_the_result(_An_html_indicator_for_creating_a_specific_object);
         }
         
         #Create_an_html_object_and_return_the_result(_Html_objects_Type)
         {
             return document.createElement(_Html_objects_Type);
         }
-    
+
+        #Add_classes_for_the_html_object(_Saving_the_object, _Array_class_indicator_for_the_object = [])
+        {
+            _Saving_the_object._HTML_class = _Array_class_indicator_for_the_object;
+            this.#the_result_of_adding_the_class_to_the_html_object(_Saving_the_object, _Array_class_indicator_for_the_object);
+        }
+        
+        #the_result_of_adding_the_class_to_the_html_object(_Saving_the_object, _Html_objects_Class_List)
+        {
+            _Html_objects_Class_List.forEach(element =>
+            {
+                _Saving_the_object._HTML_object.classList.add(element);
+                console.log(element);
+            });
+        }
+        
         // În această funcție, volum aduna toate structurile, pentru crearea obiectelor primitive.
         #Configuring_primitive_objects(_Massive_structure)
         {
@@ -205,6 +224,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
             return Primitive_objects;
         }
+        
     }
 
 
