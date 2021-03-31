@@ -63,11 +63,25 @@ document.addEventListener("DOMContentLoaded", () =>
         */
         __Calculator;
 
-        __Title =
+        // Structura pentru crearea obiectelor primitive.
+        __HTML_object =
         {
-            HTML_object: null
+            _HTML_object: null
         };
 
+        __HTML_class =
+        {
+            _HTML_class: null
+        };
+
+        // Masivul pentru structuri.
+        __Title__Primitive_objects_array_of_structure_for_object = 
+        [
+            this.__HTML_object
+        ]
+
+        // Obiectul de bază.
+        __Title = this.#Configuring_primitive_objects(this.__Title__Primitive_objects_array_of_structure_for_object);
         __The_minus_button;
         __Maximum_button;
         __Exit_button;
@@ -148,6 +162,12 @@ document.addEventListener("DOMContentLoaded", () =>
             this.#Display_Message_Alert_and_Console('Citiți documentația.');
         }
 
+        #Display_Message_Alert_and_Console(_Message)
+        {
+            alert( _Message );
+            console.log( _Message );
+        }
+
         #Start_creating_dynamic_elements(_ID)
         {
             this.#Display_Message_Alert_and_Console('Am început să creez elemente dinamic.');
@@ -160,16 +180,10 @@ document.addEventListener("DOMContentLoaded", () =>
             console.log(this.__Title.HTML_object);
         }
 
-        #Display_Message_Alert_and_Console(_Message)
-        {
-            alert( _Message );
-            console.log( _Message );
-        }
-
         // Am commit CristianGC xa xa
         #Creating_html_objects(_Saving_the_object, _An_html_indicator_for_creating_a_specific_object)
         {
-            _Saving_the_object.HTML_object = this.#Create_an_html_object_and_return_the_result(_An_html_indicator_for_creating_a_specific_object);
+            _Saving_the_object._HTML_object = this.#Create_an_html_object_and_return_the_result(_An_html_indicator_for_creating_a_specific_object);
         }
         
         #Create_an_html_object_and_return_the_result(_Html_objects_Type)
@@ -177,6 +191,18 @@ document.addEventListener("DOMContentLoaded", () =>
             return document.createElement(_Html_objects_Type);
         }
     
+        // În această funcție, volum aduna toate structurile, pentru crearea obiectelor primitive.
+        #Configuring_primitive_objects(_Massive_structure)
+        {
+            let Primitive_objects = {};
+
+            _Massive_structure.forEach(element =>
+            {
+                Object.assign(Primitive_objects, element);
+            });
+
+            return Primitive_objects;
+        }
     }
 
 
