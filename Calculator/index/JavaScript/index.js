@@ -153,6 +153,10 @@ document.addEventListener("DOMContentLoaded", () =>
             this.#Display_Message_Alert_and_Console('Am început să creez elemente dinamic.');
 
             this.__Calculator = document.getElementById(_ID);
+
+            this.#Creating_html_objects(this.__Title, 'h1');
+
+            console.log(this.__Title.HTML_object);
         }
 
         #Display_Message_Alert_and_Console(_Message)
