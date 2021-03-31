@@ -199,31 +199,6 @@ document.addEventListener("DOMContentLoaded", () =>
 
         }
 
-        // Am commit CristianGC xa xa
-        #Creating_html_objects(_Saving_the_object)
-        {
-            _Saving_the_object._HTML_object = this.#Create_an_html_object_and_return_the_result(_Saving_the_object._HTML_tags);
-        }
-        
-        #Create_an_html_object_and_return_the_result(_Html_objects_Type)
-        {
-            return document.createElement(_Html_objects_Type);
-        }
-
-        #Add_classes_for_the_html_object(_Saving_the_object, _Array_class_indicator_for_the_object = [])
-        {
-            _Saving_the_object._HTML_class = _Array_class_indicator_for_the_object;
-            this.#the_result_of_adding_the_class_to_the_html_object(_Saving_the_object, _Array_class_indicator_for_the_object);
-        }
-        
-        #the_result_of_adding_the_class_to_the_html_object(_Saving_the_object, _Html_objects_Class_List)
-        {
-            _Html_objects_Class_List.forEach(element =>
-            {
-                _Saving_the_object._HTML_object.classList.add(element);
-            });
-        }
-        
         // În această funcție, volum aduna toate structurile, pentru crearea obiectelor primitive.
         #Configuring_primitive_objects(_Massive_structure)
         {
@@ -236,7 +211,26 @@ document.addEventListener("DOMContentLoaded", () =>
 
             return Primitive_objects;
         }
+
+        // Am commit CristianGC xa xa
+        #Creating_html_objects(_Saving_the_object)
+        {
+            _Saving_the_object._HTML_object = this.#Create_an_html_object_and_return_the_result(_Saving_the_object._HTML_tags);
+        }
         
+        #Create_an_html_object_and_return_the_result(_Html_objects_Type)
+        {
+            return document.createElement(_Html_objects_Type);
+        }
+
+        #Add_classes_for_the_html_object(_Saving_the_object)
+        {
+            _Saving_the_object._HTML_class.forEach(element =>
+            {
+                _Saving_the_object._HTML_object.classList.add(element);
+            });
+        }
+          
     }
 
 
