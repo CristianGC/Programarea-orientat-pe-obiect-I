@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => 
+document.addEventListener("DOMContentLoaded", () =>
 {
     console.log('index.js Start');
 
@@ -40,23 +40,47 @@ document.addEventListener("DOMContentLoaded", () =>
             3 Butonul maxim.
             4 Butonul exit.
             5 Afișăm ce sa scris și rezultatul. În format șir.
-            7 Butonul CE
+            6 Butonul CE
             7 Butonul C
-            7 Butonul Scoateți elementul de la capătul liniei..
-            6 Butonul %
-            7 Butonul /
-            7 Butonul *
-            7 Butonul -
-            7 Butonul +
-            7 Butonul =
-            7 Butoanele 0 1 2 3 4 5 6 7 8 9.
-            7 Butonul ,
-            7 Butonul pentru a schimba numărul în pozitiv sau negativ.
-            7 Butonul pentru a schimba numărul în pozitiv sau negativ.
+            8 Butonul Scoateți elementul de la capătul liniei..
+            9 Butonul %
+            10 Butonul /
+            11 Butonul *
+            12 Butonul -
+            13 Butonul +
+            14 Butonul =
+            15 Butoanele 0 1 2 3 4 5 6 7 8 9.
+            16 Butonul ,
+            17 Butonul pentru a schimba numărul în pozitiv sau negativ.
+            18 Butonul pentru a schimba numărul în pozitiv sau negativ.
 
         */
 
-        Calculator;
+        /*
+            Deci, trebuie să fac diferențierea între variabilele metodei.
+            Am pus două sublinieri în fața variabilei.
+            Așa fac diferențierea între variabilele metodei.
+        */
+        __Calculator;
+        __Title;
+        __The_minus_button;
+        __Maximum_button;
+        __Exit_button;
+        __We_display_what_was_written_and_the_result;
+        __Button_CE;
+        __Button_C;
+        __Button_Remove_the_item_from_the_end_of_the_line;
+
+        /*
+            Aceste butoane sunt încă în curs de traducere.
+        */                    
+        __Butonul_Percent // %
+        __Butonul_Divided // /
+        __Butonul_Multiplication; // *
+        __Butonul_Decreasing; // -
+        __Butonul_Assembly; // +
+        __Butonul_Final_product; // =
+
 
         constructor(ID)
         {
@@ -123,13 +147,13 @@ document.addEventListener("DOMContentLoaded", () =>
         {
             this.Display_Message_Alert_and_Console('Am început să creez elemente dinamic.');
 
-            this.Calculator = document.getElementById(ID);
+            this.__Calculator = document.getElementById(ID);
         }
 
-        Display_Message_Alert_and_Console(Message)
+        Display_Message_Alert_and_Console(__Message)
         {
-            alert( Message );
-            console.log( Message );
+            alert( __Message );
+            console.log( __Message );
         }
     }
 
