@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", () =>
         */
         __Calculator;
 
+        //-----------------------------------------------
         // Structura pentru crearea obiectelor primitive.
         // Masivul pentru structuri.
         __Title__Primitive_objects_array_of_structure_for_object =
@@ -75,6 +76,7 @@ document.addEventListener("DOMContentLoaded", () =>
         // Obiectul de bază.
         __Title = this.#Configuring_primitive_objects(this.__Title__Primitive_objects_array_of_structure_for_object);
 
+        //-----------------------------------------------
         // Structura pentru crearea obiectelor primitive.
         // Masivul pentru structuri.
         __The_minus_button__Primitive_objects_array_of_structure_for_object =
@@ -87,22 +89,173 @@ document.addEventListener("DOMContentLoaded", () =>
         // Obiectul de bază.
         __The_minus_button = this.#Configuring_primitive_objects(this.__The_minus_button__Primitive_objects_array_of_structure_for_object);
         
-        __Maximum_button;
-        __Exit_button;
-        __We_display_what_was_written_and_the_result;
-        __Button_CE;
-        __Button_C;
-        __Button_Remove_the_item_from_the_end_of_the_line;
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Maximum_button__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+        ]
+ 
+        // Obiectul de bază.
+        __Maximum_button = this.#Configuring_primitive_objects(this.__Maximum_button__Primitive_objects_array_of_structure_for_object);
+
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Exit_button__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+        ]
+ 
+        // Obiectul de bază.
+        __Exit_button = this.#Configuring_primitive_objects(this.__Exit_button__Primitive_objects_array_of_structure_for_object);
+
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __We_display_what_was_written_and_the_result__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+        ]
+ 
+        // Obiectul de bază.
+        __We_display_what_was_written_and_the_result = this.#Configuring_primitive_objects(this.__We_display_what_was_written_and_the_result__Primitive_objects_array_of_structure_for_object);
+
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Button_CE__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+        ]
+ 
+        // Obiectul de bază.
+        __Button_CE = this.#Configuring_primitive_objects(this.__Button_CE__Primitive_objects_array_of_structure_for_object);
+
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Button_C__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+        ]
+ 
+        // Obiectul de bază.
+        __Button_C = this.#Configuring_primitive_objects(this.__Button_C__Primitive_objects_array_of_structure_for_object);
+
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Button_Remove_the_item_from_the_end_of_the_line__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+        ]
+ 
+        // Obiectul de bază.
+        __Button_Remove_the_item_from_the_end_of_the_line = this.#Configuring_primitive_objects(this.__Button_Remove_the_item_from_the_end_of_the_line__Primitive_objects_array_of_structure_for_object);
+
 
         /*
             Aceste butoane sunt încă în curs de traducere.
-        */                    
-        __Butonul_Percent // %
-        __Butonul_Divided // /
-        __Butonul_Multiplication; // *
-        __Butonul_Decreasing; // -
-        __Butonul_Assembly; // +
-        __Butonul_Final_product; // =
+        */                
+       
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_Percent__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+        ]
+ 
+        // Obiectul de bază. 
+        // %
+        __Butonul_Percent = this.#Configuring_primitive_objects(this.__Butonul_Percent__Primitive_objects_array_of_structure_for_object);
+
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_Divided__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+        ]
+ 
+        // Obiectul de bază. 
+        // /
+        __Butonul_Divided = this.#Configuring_primitive_objects(this.__Butonul_Divided__Primitive_objects_array_of_structure_for_object);
+
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_Multiplication__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+        ]
+ 
+        // Obiectul de bază. 
+        // *
+        __Butonul_Multiplication = this.#Configuring_primitive_objects(this.__Butonul_Multiplication__Primitive_objects_array_of_structure_for_object);
+
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_Decreasing__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+        ]
+ 
+        // Obiectul de bază. 
+        // -
+        __Butonul_Decreasing = this.#Configuring_primitive_objects(this.__Butonul_Decreasing__Primitive_objects_array_of_structure_for_object);
+
+
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_Assembly__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+        ]
+ 
+        // Obiectul de bază. 
+        // +
+        __Butonul_Assembly = this.#Configuring_primitive_objects(this.__Butonul_Assembly__Primitive_objects_array_of_structure_for_object);
+
+                //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_Final_product__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+        ]
+ 
+        // Obiectul de bază. 
+        // =
+        __Butonul_Final_product = this.#Configuring_primitive_objects(this.__Butonul_Final_product__Primitive_objects_array_of_structure_for_object);
 
 
         
@@ -187,7 +340,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
             console.log(this.__Title);
             console.log(this.__The_minus_button);
-            
+
         }
 
         #Start_creating_html_object(_Objects)
@@ -209,7 +362,6 @@ document.addEventListener("DOMContentLoaded", () =>
             return Primitive_objects;
         }
 
-        // Am commit CristianGC xa xa
         #Creating_html_objects(_Saving_the_object)
         {
             _Saving_the_object._HTML_object = this.#Create_an_html_object_and_return_the_result(_Saving_the_object._HTML_tags);
@@ -231,22 +383,10 @@ document.addEventListener("DOMContentLoaded", () =>
     }
 
 
-    
-    //new Calculator();
-
-    //new Calculator('ID_INCORECT');
 
     new Calculator('Calculator');
 
-    class Displaying_messages_from_the_computer
-    {
 
-    }
-
-
-
-    alert('DOM gata!');
-    console.log('DOM gata!');
 
 });
 
