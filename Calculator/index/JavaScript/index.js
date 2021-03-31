@@ -62,7 +62,12 @@ document.addEventListener("DOMContentLoaded", () =>
             Așa fac diferențierea între variabilele metodei.
         */
         __Calculator;
-        __Title;
+
+        __Title =
+        {
+            HTML_object: null
+        };
+
         __The_minus_button;
         __Maximum_button;
         __Exit_button;
@@ -155,6 +160,17 @@ document.addEventListener("DOMContentLoaded", () =>
             alert( _Message );
             console.log( _Message );
         }
+
+        #Creating_html_objects(_Saving_the_object, _An_html_indicator_for_creating_a_specific_object)
+        {
+            _Saving_the_object.HTML_object = this.#Create_an_html_object_and_return_the_result(_An_html_indicator_for_creating_a_specific_object);
+        }
+        
+        #Create_an_html_object_and_return_the_result(_Html_objects_Type)
+        {
+            return document.createElement(_Html_objects_Type);
+        }
+    
     }
 
 
