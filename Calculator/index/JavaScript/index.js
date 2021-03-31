@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__Title' },
             { _HTML_object: {} },
             { _HTML_tags: 'h1' },
-            { _HTML_class: ['Class-h1-Start', 'Class-h2-Stop'] }
+            { _HTML_class: ['__Title'] }
         ]
 
         // Obiectul de bază.
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__The_minus_button' },
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_class: ['__The_minus_button'] }
         ]
          
         // Obiectul de bază.
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__Maximum_button' },
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_class: ['__Maximum_button'] }
         ]
  
         // Obiectul de bază.
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__Exit_button' },
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_class: ['__Exit_button'] }
         ]
  
         // Obiectul de bază.
@@ -124,8 +124,8 @@ document.addEventListener("DOMContentLoaded", () =>
         [
             { _HTML_object_Name: '__We_display_what_was_written_and_the_result' },
             { _HTML_object: {} },
-            { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_tags: 'span' },
+            { _HTML_class: ['__We_display_what_was_written_and_the_result'] }
         ]
  
         // Obiectul de bază.
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__Button_CE' },
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_class: ['__Button_CE'] }
         ]
  
         // Obiectul de bază.
@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__Button_C' },
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_class: ['__Button_C'] }
         ]
  
         // Obiectul de bază.
@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__Button_Remove_the_item_from_the_end_of_the_line' },
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_class: ['__Button_Remove_the_item_from_the_end_of_the_line'] }
         ]
 
         /*
@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__Butonul_Percent' },
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_class: ['__Butonul_Percent'] }
         ]
  
         // Obiectul de bază. 
@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__Butonul_Divided' },
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_class: ['__Butonul_Divided'] }
         ]
  
         // Obiectul de bază. 
@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__Butonul_Multiplication' },
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_class: ['__Butonul_Multiplication'] }
         ]
  
         // Obiectul de bază. 
@@ -224,7 +224,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__Butonul_Decreasing' },
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_class: ['__Butonul_Decreasing'] }
         ]
  
         // Obiectul de bază. 
@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__Butonul_Assembly' },
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_class: ['__Butonul_Assembly'] }
         ]
  
         // Obiectul de bază. 
@@ -252,7 +252,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object_Name: '__Butonul_Final_product' },
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
-            { _HTML_class: ['Class-input-start', 'Class-input-stop'] }
+            { _HTML_class: ['__Butonul_Final_product'] }
         ]
  
 
@@ -419,4 +419,5 @@ document.addEventListener("DOMContentLoaded", () =>
 
 
 });
+
 
