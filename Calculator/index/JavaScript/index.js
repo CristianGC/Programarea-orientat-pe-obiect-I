@@ -503,8 +503,12 @@ document.addEventListener("DOMContentLoaded", () =>
             let Index = 0;
             _Table_with_sections.forEach(element =>
             {
-                element = this.#Configuring_primitive_objects(_Table_with_section_creation_parameters[Index]);
-                console.log(_Table_with_section_creation_parameters[Index]);
+                _Table_with_sections[Index] = element = this.#Configuring_primitive_objects(_Table_with_section_creation_parameters[Index]);
+                
+                console.log('element\n');
+                console.log(element);
+                console.log('\n\n\n');
+                
                 Index++;
             });
         }
@@ -518,6 +522,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
         #Creating_html_objects(_Saving_the_object)
         {
+            console.log('------------======' + _Saving_the_object);
             _Saving_the_object._HTML_object = document.createElement(_Saving_the_object._HTML_tags);
             console.log('__Creating_html_objects Finis. NAME: ' + _Saving_the_object._HTML_object_Name);
         }
@@ -562,6 +567,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
         #Creating_all_sections_of_html_objects(_Table_with_sections)
         {
+            console.log('99999999999999999999------' + _Table_with_sections);
             _Table_with_sections.forEach(element =>
             {
                 this.#Start_creating_html_object(element);
