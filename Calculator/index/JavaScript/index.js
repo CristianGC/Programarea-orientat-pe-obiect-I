@@ -262,10 +262,10 @@ document.addEventListener("DOMContentLoaded", () =>
             this.__Maximum_button,
             this.__Exit_button,
             this.__We_display_what_was_written_and_the_result,
+            this.__Butonul_Percent,
             this.__Button_CE,
             this.__Button_C,
             this.__Button_Remove_the_item_from_the_end_of_the_line,
-            this.__Butonul_Percent,
             this.__Butonul_Divided,
             this.__Butonul_Multiplication,
             this.__Butonul_Decreasing,
@@ -280,10 +280,10 @@ document.addEventListener("DOMContentLoaded", () =>
             this.__Maximum_button__Primitive_objects_array_of_structure_for_object,
             this.__Exit_button__Primitive_objects_array_of_structure_for_object,
             this.__We_display_what_was_written_and_the_result__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_Percent__Primitive_objects_array_of_structure_for_object,
             this.__Button_CE__Primitive_objects_array_of_structure_for_object,
             this.__Button_C__Primitive_objects_array_of_structure_for_object,
             this.__Button_Remove_the_item_from_the_end_of_the_line__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_Percent__Primitive_objects_array_of_structure_for_object,
             this.__Butonul_Divided__Primitive_objects_array_of_structure_for_object,
             this.__Butonul_Multiplication__Primitive_objects_array_of_structure_for_object,
             this.__Butonul_Decreasing__Primitive_objects_array_of_structure_for_object,
@@ -488,14 +488,8 @@ document.addEventListener("DOMContentLoaded", () =>
 
             this.#Start_creating_all_html_objects();
 
-            /*
-                P1: Index Section.
-                P2: Table Sections.
-                P3: Computer Item Table.
-                P4: Index Start Computer Item Table.
-                P5: Index Stop Computer Item Table.
-            */
-            this.#Add_the_computer_item_to_the_selection(0, this.__Table_of_sections_computer, this.__Computer_item_table, 0, 3);
+            this.#Add_the_computer_item_to_all_selections();
+
         }
 
         // În această funcție, volum aduna toate structurile, pentru crearea obiectelor primitive.
@@ -590,11 +584,6 @@ document.addEventListener("DOMContentLoaded", () =>
                 this.#Start_creating_html_object(element);
             });
         }
-
-        /*
-            this.__Table_of_sections_computer
-            this.__Computer_item_table
-        */
         
         /*
             P1: Index Section.
@@ -612,12 +601,29 @@ document.addEventListener("DOMContentLoaded", () =>
             _Index_Stop_Computer_item_table
         )
         {
-            console.log('\n\nAdd_the_computer_item_to_the_selection: \n\n');
+            console.log('\n\nAdd_the_computer_item_to_the_selection: \n');
             for (let index = _Index_Start_Computer_item_table; index <= _Index_Stop_Computer_item_table; index++)
             {
                 _Table_sections[_Index_section]._HTML_object.appendChild(_Computer_item_table[index]._HTML_object);
             }
+            console.log('Sections: ' + _Index_section);
             console.log(_Table_sections);
+        }
+
+        #Add_the_computer_item_to_all_selections()
+        {
+            /*
+                P1: Index Section.
+                P2: Table Sections.
+                P3: Computer Item Table.
+                P4: Index Start Computer Item Table.
+                P5: Index Stop Computer Item Table.
+            */
+            this.#Add_the_computer_item_to_the_selection(0, this.__Table_of_sections_computer, this.__Computer_item_table, 0, 3);
+            this.#Add_the_computer_item_to_the_selection(1, this.__Table_of_sections_computer, this.__Computer_item_table, 4, 4);
+            this.#Add_the_computer_item_to_the_selection(2, this.__Table_of_sections_computer, this.__Computer_item_table, 5, 8);
+            this.#Add_the_computer_item_to_the_selection(4, this.__Table_of_sections_computer, this.__Computer_item_table, 9, 12);
+
         }
 
         
