@@ -583,6 +583,35 @@ document.addEventListener("DOMContentLoaded", () =>
             });
         }
 
+        /*
+            this.__Table_of_sections_computer
+            this.__Computer_item_table
+        */
+        
+        /*
+            P1: Index Section.
+            P2: Table Sections.
+            P3: Computer Item Table.
+            P4: Index Start Computer Item Table.
+            P5: Index Stop Computer Item Table.
+        */
+        #Add_the_computer_item_to_the_selection
+        (   
+            _Index_section,
+            _Table_sections,
+            _Computer_item_table,
+            _Index_Start_Computer_item_table,
+            _Index_Stop_Computer_item_table
+        )
+        {
+            for (let index = _Index_Start_Computer_item_table; index < _Index_Stop_Computer_item_table; index++)
+            {
+                _Table_sections[_Index_section]._HTML_object.appendChild(_Computer_item_table[index]);
+            }
+        }
+
+        
+
     }
 
 
