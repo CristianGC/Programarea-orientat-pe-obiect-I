@@ -446,7 +446,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Final_product'] },
-            { _HTML_type: '' }
+            { _HTML_type: 'TTTTTTT' }
         ]
 
         __Computer_item_table =
@@ -734,20 +734,22 @@ document.addEventListener("DOMContentLoaded", () =>
 
             console.log('Configuring Primitive Objects Finis. NAME: ' + Primitive_objects._HTML_object_Name);
 
+            console.log('Primitive_objects: ' + Primitive_objects._HTML_type + '\n\n');
+
             return Primitive_objects;
         }
 
         #Configuring_All_primitive_objects()
         {
             // Configurarea Computer item.
-            this.#Configure_all_Computer_item__of_primitive_objects(this.__Computer_item_table, this.__Computer_item_table__Primitive_objects_array_of_structure_for_object);
+            this.#Configure_ALL_Computer_item__of_primitive_objects(this.__Computer_item_table, this.__Computer_item_table__Primitive_objects_array_of_structure_for_object);
 
             // Configurarea secțiunilor.
-            this.#Configure_all_sections_of_primitive_objects(this.__Table_of_sections_computer, this.__Table_of_sections__Primitive_objects_array_of_structure_for_object);
+            this.#Configure_ALL_sections_of_primitive_objects(this.__Table_of_sections_computer, this.__Table_of_sections__Primitive_objects_array_of_structure_for_object);
 
         }
 
-        #Configure_all_Computer_item__of_primitive_objects(_Table_with_Computer_item, _Table_with_Computer_item_creation_parameters)
+        #Configure_ALL_Computer_item__of_primitive_objects(_Table_with_Computer_item, _Table_with_Computer_item_creation_parameters)
         {
             let Index = 0;
             _Table_with_Computer_item.forEach(element =>
@@ -757,7 +759,7 @@ document.addEventListener("DOMContentLoaded", () =>
             });
         }
 
-        #Configure_all_sections_of_primitive_objects(_Table_with_sections, _Table_with_section_creation_parameters)
+        #Configure_ALL_sections_of_primitive_objects(_Table_with_sections, _Table_with_section_creation_parameters)
         {
             let Index = 0;
             _Table_with_sections.forEach(element =>
@@ -837,7 +839,7 @@ document.addEventListener("DOMContentLoaded", () =>
                 _Table_sections[_Index_section]._HTML_object.appendChild(_Computer_item_table[index]._HTML_object);
             }
             console.log('Sections: ' + _Index_section);
-            console.log(_Table_sections);
+            console.log(_Table_sections[_Index_section]);
         }
 
         #Add_the_computer_item_to_all_selections()
