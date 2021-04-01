@@ -507,24 +507,22 @@ document.addEventListener("DOMContentLoaded", () =>
 
         #Configuring_All_primitive_objects()
         {
-            this.__Title = this.#Configuring_primitive_objects(this.__Title__Primitive_objects_array_of_structure_for_object);
-            this.__The_minus_button = this.#Configuring_primitive_objects(this.__The_minus_button__Primitive_objects_array_of_structure_for_object);
-            this.__Maximum_button = this.#Configuring_primitive_objects(this.__Maximum_button__Primitive_objects_array_of_structure_for_object);
-            this.__Exit_button = this.#Configuring_primitive_objects(this.__Exit_button__Primitive_objects_array_of_structure_for_object);
-            this.__We_display_what_was_written_and_the_result = this.#Configuring_primitive_objects(this.__We_display_what_was_written_and_the_result__Primitive_objects_array_of_structure_for_object);
-            this.__Button_CE = this.#Configuring_primitive_objects(this.__Button_CE__Primitive_objects_array_of_structure_for_object);
-            this.__Button_C = this.#Configuring_primitive_objects(this.__Button_C__Primitive_objects_array_of_structure_for_object);
-            this.__Button_Remove_the_item_from_the_end_of_the_line = this.#Configuring_primitive_objects(this.__Button_Remove_the_item_from_the_end_of_the_line__Primitive_objects_array_of_structure_for_object);
-            this.__Butonul_Percent = this.#Configuring_primitive_objects(this.__Butonul_Percent__Primitive_objects_array_of_structure_for_object);
-            this.__Butonul_Divided = this.#Configuring_primitive_objects(this.__Butonul_Divided__Primitive_objects_array_of_structure_for_object);
-            this.__Butonul_Multiplication = this.#Configuring_primitive_objects(this.__Butonul_Multiplication__Primitive_objects_array_of_structure_for_object);
-            this.__Butonul_Decreasing = this.#Configuring_primitive_objects(this.__Butonul_Decreasing__Primitive_objects_array_of_structure_for_object);
-            this.__Butonul_Assembly = this.#Configuring_primitive_objects(this.__Butonul_Assembly__Primitive_objects_array_of_structure_for_object);
-            this.__Butonul_Final_product = this.#Configuring_primitive_objects(this.__Butonul_Final_product__Primitive_objects_array_of_structure_for_object);
+            // Configurarea Computer item.
+            this.#Configure_all_Computer_item__of_primitive_objects(this.__Computer_item_table, this.__Computer_item_table__Primitive_objects_array_of_structure_for_object);
 
             // Configurarea secțiunilor.
             this.#Configure_all_sections_of_primitive_objects(this.__Table_of_sections_computer, this.__Table_of_sections__Primitive_objects_array_of_structure_for_object);
 
+        }
+
+        #Configure_all_Computer_item__of_primitive_objects(_Table_with_Computer_item, _Table_with_Computer_item_creation_parameters)
+        {
+            let Index = 0;
+            _Table_with_Computer_item.forEach(element =>
+            {
+                _Table_with_Computer_item[Index] = element = this.#Configuring_primitive_objects(_Table_with_Computer_item_creation_parameters[Index]);
+                Index++;
+            });
         }
 
         #Configure_all_sections_of_primitive_objects(_Table_with_sections, _Table_with_section_creation_parameters)
@@ -562,23 +560,19 @@ document.addEventListener("DOMContentLoaded", () =>
         // Creează toate obiectele html dinamic.
         #Start_creating_all_html_objects()
         {
-            this.#Start_creating_html_object(this.__Title);
-            this.#Start_creating_html_object(this.__The_minus_button);
-            this.#Start_creating_html_object(this.__Maximum_button);
-            this.#Start_creating_html_object(this.__Exit_button);
-            this.#Start_creating_html_object(this.__We_display_what_was_written_and_the_result);
-            this.#Start_creating_html_object(this.__Button_CE);
-            this.#Start_creating_html_object(this.__Button_C);
-            this.#Start_creating_html_object(this.__Button_Remove_the_item_from_the_end_of_the_line);
-            this.#Start_creating_html_object(this.__Butonul_Percent);
-            this.#Start_creating_html_object(this.__Butonul_Divided);
-            this.#Start_creating_html_object(this.__Butonul_Multiplication);
-            this.#Start_creating_html_object(this.__Butonul_Decreasing);
-            this.#Start_creating_html_object(this.__Butonul_Assembly);
-            this.#Start_creating_html_object(this.__Butonul_Final_product);
+            // Crearea obiectelor html pentru Computer item.
+            this.#Creating_all_Computer_item_of_html_objects(this.__Computer_item_table);
 
             // Crearea obiectelor html pentru secțiuni.
             this.#Creating_all_sections_of_html_objects(this.__Table_of_sections_computer);
+        }
+
+        #Creating_all_Computer_item_of_html_objects(_Table_with_Computer_item)
+        {
+            _Table_with_Computer_item.forEach(element =>
+            {
+                this.#Start_creating_html_object(element);
+            });
         }
 
         #Creating_all_sections_of_html_objects(_Table_with_sections)
