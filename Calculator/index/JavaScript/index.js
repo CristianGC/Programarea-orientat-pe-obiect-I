@@ -488,6 +488,14 @@ document.addEventListener("DOMContentLoaded", () =>
 
             this.#Start_creating_all_html_objects();
 
+            /*
+                P1: Index Section.
+                P2: Table Sections.
+                P3: Computer Item Table.
+                P4: Index Start Computer Item Table.
+                P5: Index Stop Computer Item Table.
+            */
+            this.#Add_the_computer_item_to_the_selection(0, this.__Table_of_sections_computer, this.__Computer_item_table, 0, 3);
         }
 
         // În această funcție, volum aduna toate structurile, pentru crearea obiectelor primitive.
@@ -604,10 +612,12 @@ document.addEventListener("DOMContentLoaded", () =>
             _Index_Stop_Computer_item_table
         )
         {
-            for (let index = _Index_Start_Computer_item_table; index < _Index_Stop_Computer_item_table; index++)
+            console.log('\n\nAdd_the_computer_item_to_the_selection: \n\n');
+            for (let index = _Index_Start_Computer_item_table; index <= _Index_Stop_Computer_item_table; index++)
             {
-                _Table_sections[_Index_section]._HTML_object.appendChild(_Computer_item_table[index]);
+                _Table_sections[_Index_section]._HTML_object.appendChild(_Computer_item_table[index]._HTML_object);
             }
+            console.log(_Table_sections);
         }
 
         
