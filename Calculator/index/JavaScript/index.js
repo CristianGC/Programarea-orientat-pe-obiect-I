@@ -510,7 +510,6 @@ document.addEventListener("DOMContentLoaded", () =>
 
         #Creating_html_objects(_Saving_the_object)
         {
-            console.log('------------======' + _Saving_the_object);
             _Saving_the_object._HTML_object = document.createElement(_Saving_the_object._HTML_tags);
             console.log('__Creating_html_objects Finis. NAME: ' + _Saving_the_object._HTML_object_Name);
         }
