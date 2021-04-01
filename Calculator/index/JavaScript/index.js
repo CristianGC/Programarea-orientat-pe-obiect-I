@@ -487,13 +487,6 @@ document.addEventListener("DOMContentLoaded", () =>
             this.__Butonul_Final_product = this.#Configuring_primitive_objects(this.__Butonul_Final_product__Primitive_objects_array_of_structure_for_object);
 
             // Configurarea secțiunilor.
-            //this.__Section_1_computer = this.#Configuring_primitive_objects(this.__Section_1_computer__Primitive_objects_array_of_structure_for_object);
-            //this.__Section_2_computer = this.#Configuring_primitive_objects(this.__Section_2_computer__Primitive_objects_array_of_structure_for_object);
-            //this.__Section_3_computer = this.#Configuring_primitive_objects(this.__Section_3_computer__Primitive_objects_array_of_structure_for_object);
-            //this.__Section_4_computer = this.#Configuring_primitive_objects(this.__Section_4_computer__Primitive_objects_array_of_structure_for_object);
-            //this.__Section_5_computer = this.#Configuring_primitive_objects(this.__Section_5_computer__Primitive_objects_array_of_structure_for_object);
-            //this.__Section_6_computer = this.#Configuring_primitive_objects(this.__Section_6_computer__Primitive_objects_array_of_structure_for_object);
-
             this.#Configure_all_sections_of_primitive_objects(this.__Table_of_sections_computer, this.__Table_of__Primitive_objects_array_of_structure_for_object);
 
         }
@@ -504,11 +497,6 @@ document.addEventListener("DOMContentLoaded", () =>
             _Table_with_sections.forEach(element =>
             {
                 _Table_with_sections[Index] = element = this.#Configuring_primitive_objects(_Table_with_section_creation_parameters[Index]);
-                
-                console.log('element\n');
-                console.log(element);
-                console.log('\n\n\n');
-                
                 Index++;
             });
         }
@@ -555,19 +543,11 @@ document.addEventListener("DOMContentLoaded", () =>
             this.#Start_creating_html_object(this.__Butonul_Final_product);
 
             // Crearea obiectelor html pentru secțiuni.
-            //this.#Start_creating_html_object(this.__Section_1_computer);
-            //this.#Start_creating_html_object(this.__Section_2_computer);
-            //this.#Start_creating_html_object(this.__Section_3_computer);
-            //this.#Start_creating_html_object(this.__Section_4_computer);
-            //this.#Start_creating_html_object(this.__Section_5_computer);
-            //this.#Start_creating_html_object(this.__Section_6_computer);
-
             this.#Creating_all_sections_of_html_objects(this.__Table_of_sections_computer);
         }
 
         #Creating_all_sections_of_html_objects(_Table_with_sections)
         {
-            console.log('99999999999999999999------' + _Table_with_sections);
             _Table_with_sections.forEach(element =>
             {
                 this.#Start_creating_html_object(element);
