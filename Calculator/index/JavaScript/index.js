@@ -255,6 +255,42 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_class: ['__Butonul_Final_product'] }
         ]
 
+        __Computer_item_table =
+        [
+            this.__Title,
+            this.__The_minus_button,
+            this.__Maximum_button,
+            this.__Exit_button,
+            this.__We_display_what_was_written_and_the_result,
+            this.__Button_CE,
+            this.__Button_C,
+            this.__Button_Remove_the_item_from_the_end_of_the_line,
+            this.__Butonul_Percent,
+            this.__Butonul_Divided,
+            this.__Butonul_Multiplication,
+            this.__Butonul_Decreasing,
+            this.__Butonul_Assembly,
+            this.__Butonul_Final_product
+        ]
+
+        __Computer_item_table__Primitive_objects_array_of_structure_for_object =
+        [
+            this.__Title__Primitive_objects_array_of_structure_for_object,
+            this.__The_minus_button__Primitive_objects_array_of_structure_for_object,
+            this.__Maximum_button__Primitive_objects_array_of_structure_for_object,
+            this.__Exit_button__Primitive_objects_array_of_structure_for_object,
+            this.__We_display_what_was_written_and_the_result__Primitive_objects_array_of_structure_for_object,
+            this.__Button_CE__Primitive_objects_array_of_structure_for_object,
+            this.__Button_C__Primitive_objects_array_of_structure_for_object,
+            this.__Button_Remove_the_item_from_the_end_of_the_line__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_Percent__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_Divided__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_Multiplication__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_Decreasing__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_Assembly__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_Final_product__Primitive_objects_array_of_structure_for_object
+        ]
+
         // Obiectul de bază. 
         // Secțiunea 1 calculator
         __Section_1_computer;         
@@ -365,7 +401,7 @@ document.addEventListener("DOMContentLoaded", () =>
         ]
 
         // Este tabelul secțiunilor cu parametrii primiți pentru obiectele HTML
-        __Table_of__Primitive_objects_array_of_structure_for_object =
+        __Table_of_sections__Primitive_objects_array_of_structure_for_object =
         [
             this.__Section_1_computer__Primitive_objects_array_of_structure_for_object,
             this.__Section_2_computer__Primitive_objects_array_of_structure_for_object,
@@ -487,7 +523,7 @@ document.addEventListener("DOMContentLoaded", () =>
             this.__Butonul_Final_product = this.#Configuring_primitive_objects(this.__Butonul_Final_product__Primitive_objects_array_of_structure_for_object);
 
             // Configurarea secțiunilor.
-            this.#Configure_all_sections_of_primitive_objects(this.__Table_of_sections_computer, this.__Table_of__Primitive_objects_array_of_structure_for_object);
+            this.#Configure_all_sections_of_primitive_objects(this.__Table_of_sections_computer, this.__Table_of_sections__Primitive_objects_array_of_structure_for_object);
 
         }
 
