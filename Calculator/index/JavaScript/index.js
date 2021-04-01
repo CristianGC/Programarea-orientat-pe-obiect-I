@@ -254,9 +254,107 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Final_product'] }
         ]
- 
+
+        // Obiectul de bază. 
+        // Secțiunea 1 calculator
+        __Section_1_computer;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Section_1_computer__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Section_1_computer' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'section' },
+            { _HTML_class: ['__Section_1_computer'] }
+        ]
+
+        // Obiectul de bază. 
+        // Secțiunea 2 calculator
+        __Section_2_computer;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Section_2_computer__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Section_2_computer' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'section' },
+            { _HTML_class: ['__Section_2_computer'] }
+        ]
+
+        // Obiectul de bază. 
+        // Secțiunea 3 calculator
+        __Section_3_computer;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Section_3_computer__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Section_3_computer' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'section' },
+            { _HTML_class: ['__Section_3_computer'] }
+        ]
+
+        // Obiectul de bază. 
+        // Secțiunea 3 calculator
+        __Section_3_computer;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Section_3_computer__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Section_3_computer' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'section' },
+            { _HTML_class: ['__Section_3_computer'] }
+        ]
+
+        // Obiectul de bază. 
+        // Secțiunea 4 calculator
+        __Section_4_computer;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Section_4_computer__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Section_4_computer' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'section' },
+            { _HTML_class: ['__Section_4_computer'] }
+        ]
+
+        // Obiectul de bază. 
+        // Secțiunea 5 calculator
+        __Section_5_computer;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Section_5_computer__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Section_5_computer' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'section' },
+            { _HTML_class: ['__Section_5_computer'] }
+        ]
+
+        // Obiectul de bază. 
+        // Secțiunea 6 calculator
+        __Section_6_computer;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Section_6_computer__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Section_6_computer' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'section' },
+            { _HTML_class: ['__Section_6_computer'] }
+        ]
 
 
+        
         constructor(_ID)
         {
         
