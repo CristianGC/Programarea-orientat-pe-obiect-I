@@ -353,7 +353,27 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_class: ['__Section_6_computer'] }
         ]
 
+        // Este tabelul de secțiuni.
+        __Table_of_sections_computer =
+        [
+            this.__Section_1_computer,
+            this.__Section_2_computer,
+            this.__Section_3_computer,
+            this.__Section_4_computer,
+            this.__Section_5_computer,
+            this.__Section_6_computer
+        ]
 
+        // Este tabelul secțiunilor cu parametrii primiți pentru obiectele HTML
+        __Table_of__Primitive_objects_array_of_structure_for_object =
+        [
+            this.__Section_1_computer__Primitive_objects_array_of_structure_for_object,
+            this.__Section_2_computer__Primitive_objects_array_of_structure_for_object,
+            this.__Section_3_computer__Primitive_objects_array_of_structure_for_object,
+            this.__Section_4_computer__Primitive_objects_array_of_structure_for_object,
+            this.__Section_5_computer__Primitive_objects_array_of_structure_for_object,
+            this.__Section_6_computer__Primitive_objects_array_of_structure_for_object
+        ]
 
         constructor(_ID)
         {
