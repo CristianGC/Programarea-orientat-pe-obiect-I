@@ -240,8 +240,176 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Assembly'] }
         ]
- 
+
         // Obiectul de bază. 
+        // 0
+        __Butonul_0;    
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_0__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Butonul_0' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['__Butonul_0'] }
+        ]
+        
+        // Obiectul de bază. 
+        // 1
+        __Butonul_1;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_1__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Butonul_1' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['__Butonul_1'] }
+        ]
+        
+        // Obiectul de bază. 
+        // 2
+        __Butonul_2;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_2__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Butonul_2' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['__Butonul_2'] }
+        ]
+        
+        // Obiectul de bază. 
+        // 3
+        __Butonul_3;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_3__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Butonul_3' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['__Butonul_3'] }
+        ]
+        
+        // Obiectul de bază. 
+        // 4
+        __Butonul_4;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_4__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Butonul_4' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['__Butonul_4'] }
+        ]
+        
+        // Obiectul de bază. 
+        // 5
+        __Butonul_5;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_5__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Butonul_5' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['__Butonul_5'] }
+        ]
+        
+        // Obiectul de bază. 
+        // 6
+        __Butonul_6;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_6__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Butonul_6' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['__Butonul_6'] }
+        ]
+        
+        // Obiectul de bază. 
+        // 7
+        __Butonul_7;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_7__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Butonul_7' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['__Butonul_7'] }
+        ]
+        
+        // Obiectul de bază. 
+        // 8
+        __Butonul_8;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_8__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Butonul_8' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['__Butonul_8'] }
+        ]
+        
+        // Obiectul de bază. 
+        // 9
+        __Butonul_9;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_9__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Butonul_9' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['__Butonul_9'] }
+        ]
+                
+        // Obiectul de bază. 
+        // +/-
+        __Butonul_Invert_the_number;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_Invert_the_number__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Butonul_Invert_the_number' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['__Butonul_Invert_the_number'] }
+        ]
+
+        // Obiectul de bază. 
+        // ,
+        __Butonul_Comma;         
+        //-----------------------------------------------
+        // Structura pentru crearea obiectelor primitive.
+        // Masivul pentru structuri.
+        __Butonul_Comma__Primitive_objects_array_of_structure_for_object =
+        [
+            { _HTML_object_Name: '__Butonul_Comma' },
+            { _HTML_object: {} },
+            { _HTML_tags: 'input' },
+            { _HTML_class: ['__Butonul_Comma'] }
+        ]
+
+        // Obiectul de bază.
         // =
         __Butonul_Final_product;         
         //-----------------------------------------------
@@ -270,7 +438,19 @@ document.addEventListener("DOMContentLoaded", () =>
             this.__Butonul_Multiplication,
             this.__Butonul_Decreasing,
             this.__Butonul_Assembly,
-            this.__Butonul_Final_product
+            this.__Butonul_0,
+            this.__Butonul_1,
+            this.__Butonul_2,
+            this.__Butonul_3,
+            this.__Butonul_4,
+            this.__Butonul_5,
+            this.__Butonul_6,
+            this.__Butonul_7,
+            this.__Butonul_8,
+            this.__Butonul_9,
+            this.__Butonul_Comma,
+            this.__Butonul_Invert_the_number,
+            this.__Butonul_Final_product,
         ]
 
         __Computer_item_table__Primitive_objects_array_of_structure_for_object =
@@ -288,7 +468,19 @@ document.addEventListener("DOMContentLoaded", () =>
             this.__Butonul_Multiplication__Primitive_objects_array_of_structure_for_object,
             this.__Butonul_Decreasing__Primitive_objects_array_of_structure_for_object,
             this.__Butonul_Assembly__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_Final_product__Primitive_objects_array_of_structure_for_object
+            this.__Butonul_0__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_1__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_2__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_3__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_4__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_5__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_6__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_7__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_8__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_9__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_Comma__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_Invert_the_number__Primitive_objects_array_of_structure_for_object,
+            this.__Butonul_Final_product__Primitive_objects_array_of_structure_for_object,
         ]
 
         // Obiectul de bază. 
