@@ -74,8 +74,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'h1' },
             { _HTML_class: ['__Title'] },
-            { _HTML_type: 'TEST TYPE TITLE' },
-            { _HTML_value: 'TEST VALUE TITLE' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
 
         // Obiectul de bază.
@@ -89,8 +89,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__The_minus_button'] },
-            { _HTML_type: 'TEST TYPE MIN BUTTON' },
-            { _HTML_value: 'TEST VALUE MIN BUTTON' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '__The_minus_button' }
         ]
          
         // Obiectul de bază.
@@ -104,8 +104,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Maximum_button'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '__Maximum_button' }
         ]
  
         // Obiectul de bază.
@@ -119,8 +119,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Exit_button'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '__Exit_button' }
         ]
  
         // Obiectul de bază.
@@ -149,8 +149,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Button_CE'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: 'CE' }
         ]
  
         // Obiectul de bază.
@@ -164,8 +164,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Button_C'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: 'C' }
         ]
  
         // Obiectul de bază.
@@ -179,8 +179,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Button_Remove_the_item_from_the_end_of_the_line'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '__Button_Remove_the_item_from_the_end_of_the_line' }
         ]
 
         /*
@@ -199,8 +199,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Percent'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '%' }
         ]
  
         // Obiectul de bază. 
@@ -215,8 +215,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Divided'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '/' }
         ]
  
         // Obiectul de bază. 
@@ -231,8 +231,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Multiplication'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '*' }
         ]
  
         // Obiectul de bază. 
@@ -247,8 +247,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Decreasing'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '-' }
         ]
  
         // Obiectul de bază. 
@@ -263,8 +263,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Assembly'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '+' }
         ]
 
         // Obiectul de bază. 
@@ -279,8 +279,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_0'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '0' }
         ]
         
         // Obiectul de bază. 
@@ -295,8 +295,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_1'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '1' }
         ]
         
         // Obiectul de bază. 
@@ -311,8 +311,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_2'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '2' }
         ]
         
         // Obiectul de bază. 
@@ -327,8 +327,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_3'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '3' }
         ]
         
         // Obiectul de bază. 
@@ -343,8 +343,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_4'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '4' }
         ]
         
         // Obiectul de bază. 
@@ -359,8 +359,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_5'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '5' }
         ]
         
         // Obiectul de bază. 
@@ -375,8 +375,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_6'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '6' }
         ]
         
         // Obiectul de bază. 
@@ -391,8 +391,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_7'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '7' }
         ]
         
         // Obiectul de bază. 
@@ -407,8 +407,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_8'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '8' }
         ]
         
         // Obiectul de bază. 
@@ -423,8 +423,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_9'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '9' }
         ]
                 
         // Obiectul de bază. 
@@ -439,8 +439,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Invert_the_number'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '+/-' }
         ]
 
         // Obiectul de bază.
@@ -455,8 +455,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Comma'] },
-            { _HTML_type: '' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: ',' }
         ]
 
         // Obiectul de bază.
@@ -471,8 +471,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Final_product'] },
-            { _HTML_type: 'TTTTTTT' },
-            { _HTML_value: '' }
+            { _HTML_type: 'button' },
+            { _HTML_value: '=' }
         ]
 
         __Computer_item_table =
@@ -772,9 +772,7 @@ document.addEventListener("DOMContentLoaded", () =>
             });
 
             console.log('Configuring Primitive Objects Finis. NAME: ' + Primitive_objects._HTML_object_Name);
-
-            console.log('Primitive_objects: ' + Primitive_objects._HTML_type + '\n\n');
-
+            
             return Primitive_objects;
         }
 
@@ -818,7 +816,7 @@ document.addEventListener("DOMContentLoaded", () =>
         #Creating_html_objects(_Saving_the_object)
         {
             _Saving_the_object._HTML_object = document.createElement(_Saving_the_object._HTML_tags);
-            console.log('__Creating_html_objects Finis. NAME: ' + _Saving_the_object._HTML_object_Name);
+            console.log('\n__Creating_html_objects Finis. NAME: ' + _Saving_the_object._HTML_object_Name);
         }
         
         #Add_classes_for_the_html_object(_Saving_the_object)
@@ -827,7 +825,7 @@ document.addEventListener("DOMContentLoaded", () =>
             {
                 _Saving_the_object._HTML_object.classList.add(element);
             });
-            console.log('___Add_classes_for_the_html_object Finis. NAME: ' + _Saving_the_object._HTML_object_Name);
+            console.log('\n___Add_classes_for_the_html_object Finis. NAME: ' + _Saving_the_object._HTML_object_Name);
         }
 
         // Creează toate obiectele html dinamic.
@@ -872,13 +870,11 @@ document.addEventListener("DOMContentLoaded", () =>
             _Index_Stop_Computer_item_table
         )
         {
-            console.log('\n\nAdd_the_computer_item_to_the_selection: \n');
+            console.log('\nAdd_the_computer_item_to_the_selection: ' + _Index_section);
             for (let index = _Index_Start_Computer_item_table; index <= _Index_Stop_Computer_item_table; index++)
             {
                 _Section_array[_Index_section]._HTML_object.appendChild(_Computer_item_table[index]._HTML_object);
             }
-            console.log('Sections: ' + _Index_section);
-            console.log(_Section_array[_Index_section]);
         }
 
         #Add_the_computer_item_to_all_selections()
