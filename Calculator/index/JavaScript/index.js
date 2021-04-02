@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'h1' },
             { _HTML_class: ['__Title'] },
-            { _HTML_type: '' }
+            { _HTML_type: 'TEST TITLE' }
         ]
 
         // Obiectul de bază.
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__The_minus_button'] },
-            { _HTML_type: '' }
+            { _HTML_type: 'TEST MIN BUTTON' }
         ]
          
         // Obiectul de bază.
@@ -715,6 +715,12 @@ document.addEventListener("DOMContentLoaded", () =>
 
             this.#Add_the_computer_item_to_all_selections();
 
+            /*
+                P1: __Computer_item_table
+                P2: __Table_of_sections_computer
+            */
+            this.#Add_the_type_attribute_to_all_HTML_elements(this.__Computer_item_table, this.__Table_of_sections_computer)
+
             this.__Table_of_sections_computer.forEach(element => 
             {
                 this.__Calculator.appendChild(element._HTML_object);
@@ -860,12 +866,12 @@ document.addEventListener("DOMContentLoaded", () =>
 
         #Add_the_type_attribute_to_all_HTML_elements(_Computer_item_array, _Section_array)
         {
-            _Computer_item_array.array.forEach(element =>
+            _Computer_item_array.forEach(element =>
             {
                 this.#Check_if_we_can_add_type_to_html_Object(element);
             });
 
-            _Section_array.array.forEach(element =>
+            _Section_array.forEach(element =>
             {
                 this.#Check_if_we_can_add_type_to_html_Object(element);
             });
