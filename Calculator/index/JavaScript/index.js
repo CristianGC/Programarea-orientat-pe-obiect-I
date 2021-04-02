@@ -74,8 +74,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'h1' },
             { _HTML_class: ['__Title'] },
-            { _HTML_type: 'TEST TITLE' },
-            { _HTML_value: '' }
+            { _HTML_type: 'TEST TYPE TITLE' },
+            { _HTML_value: 'TEST VALUE TITLE' }
         ]
 
         // Obiectul de bază.
@@ -89,8 +89,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__The_minus_button'] },
-            { _HTML_type: 'TEST MIN BUTTON' },
-            { _HTML_value: '' }
+            { _HTML_type: 'TEST TYPE MIN BUTTON' },
+            { _HTML_value: 'TEST VALUE MIN BUTTON' }
         ]
          
         // Obiectul de bază.
@@ -752,7 +752,7 @@ document.addEventListener("DOMContentLoaded", () =>
                 P1: __Computer_item_table
                 P2: __Table_of_sections_computer
             */
-            this.#Add_the_type_attribute_to_all_HTML_elements(this.__Computer_item_table, this.__Table_of_sections_computer)
+            this.#Add_the_type_and_value_attribute_to_all_HTML_elements(this.__Computer_item_table, this.__Table_of_sections_computer)
 
             this.__Table_of_sections_computer.forEach(element => 
             {
@@ -897,24 +897,29 @@ document.addEventListener("DOMContentLoaded", () =>
 
         }
 
-        #Add_the_type_attribute_to_all_HTML_elements(_Computer_item_array, _Section_array)
+        #Add_the_type_and_value_attribute_to_all_HTML_elements(_Computer_item_array, _Section_array)
         {
             _Computer_item_array.forEach(element =>
             {
-                this.#Check_if_we_can_add_type_to_html_Object(element);
+                this.#Check_if_we_can_add_type_and_value_to_html_Object(element);
             });
 
             _Section_array.forEach(element =>
             {
-                this.#Check_if_we_can_add_type_to_html_Object(element);
+                this.#Check_if_we_can_add_type_and_value_to_html_Object(element);
             });
         }
 
-        #Check_if_we_can_add_type_to_html_Object(_The_primitive_object)
+        #Check_if_we_can_add_type_and_value_to_html_Object(_The_primitive_object)
         {
             if (_The_primitive_object._HTML_type != '')
             {
                 _The_primitive_object._HTML_object.setAttribute("type", _The_primitive_object._HTML_type);   
+            }
+
+            if (_The_primitive_object._HTML_value != '')
+            {
+                _The_primitive_object._HTML_object.setAttribute("value", _The_primitive_object._HTML_value);   
             }
         }
 
