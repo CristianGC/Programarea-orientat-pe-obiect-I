@@ -124,71 +124,11 @@ document.addEventListener("DOMContentLoaded", () =>
         __Butonul_Comma__Primitive_objects_array_of_structure_for_object;
         __Butonul_Final_product__Primitive_objects_array_of_structure_for_object;
 
-
         // Este tabelul de item.
-        __Computer_item_table =
-        [
-            this.__Title,
-            this.__The_minus_button,
-            this.__Maximum_button,
-            this.__Exit_button,
-            this.__We_display_what_was_written_and_the_result,
-            this.__Butonul_Percent,
-            this.__Button_CE,
-            this.__Button_C,
-            this.__Button_Remove_the_item_from_the_end_of_the_line,
-            this.__Butonul_Divided,
-            this.__Butonul_Multiplication,
-            this.__Butonul_Decreasing,
-            this.__Butonul_Assembly,
-            this.__Butonul_0,
-            this.__Butonul_1,
-            this.__Butonul_2,
-            this.__Butonul_3,
-            this.__Butonul_4,
-            this.__Butonul_5,
-            this.__Butonul_6,
-            this.__Butonul_7,
-            this.__Butonul_8,
-            this.__Butonul_9,
-            this.__Butonul_Comma,
-            this.__Butonul_Invert_the_number,
-            this.__Butonul_Final_product,
-        ]
-
+        __Computer_item_table;
 
         // Este tabelul item cu parametrii pentru obiectele HTML.
-        __Computer_item_table__Primitive_objects_array_of_structure_for_object =
-        [
-            this.__Title__Primitive_objects_array_of_structure_for_object,
-            this.__The_minus_button__Primitive_objects_array_of_structure_for_object,
-            this.__Maximum_button__Primitive_objects_array_of_structure_for_object,
-            this.__Exit_button__Primitive_objects_array_of_structure_for_object,
-            this.__We_display_what_was_written_and_the_result__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_Percent__Primitive_objects_array_of_structure_for_object,
-            this.__Button_CE__Primitive_objects_array_of_structure_for_object,
-            this.__Button_C__Primitive_objects_array_of_structure_for_object,
-            this.__Button_Remove_the_item_from_the_end_of_the_line__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_Divided__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_Multiplication__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_Decreasing__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_Assembly__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_0__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_1__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_2__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_3__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_4__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_5__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_6__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_7__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_8__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_9__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_Comma__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_Invert_the_number__Primitive_objects_array_of_structure_for_object,
-            this.__Butonul_Final_product__Primitive_objects_array_of_structure_for_object,
-        ]
-
-
+        __Computer_item_table__Primitive_objects_array_of_structure_for_object;
 
         // Obiectul de bază. 
         // Secțiunea 1 calculator
@@ -199,7 +139,6 @@ document.addEventListener("DOMContentLoaded", () =>
         __Section_5_computer;    
         __Section_6_computer;    
 
-        //-----------------------------------------------
         // Structura pentru crearea obiectelor primitive.
         // Masivul pentru structuri.
         __Section_1_computer__Primitive_objects_array_of_structure_for_object;
@@ -209,31 +148,11 @@ document.addEventListener("DOMContentLoaded", () =>
         __Section_5_computer__Primitive_objects_array_of_structure_for_object;
         __Section_6_computer__Primitive_objects_array_of_structure_for_object;
 
-
-
         // Este tabelul de secțiuni.
-        __Table_of_sections_computer =
-        [
-            this.__Section_1_computer,
-            this.__Section_2_computer,
-            this.__Section_3_computer,
-            this.__Section_4_computer,
-            this.__Section_5_computer,
-            this.__Section_6_computer
-        ]
+        __Table_of_sections_computer;
 
         // Este tabelul secțiunilor cu parametrii pentru obiectele HTML.
-        __Table_of_sections__Primitive_objects_array_of_structure_for_object =
-        [
-            this.__Section_1_computer__Primitive_objects_array_of_structure_for_object,
-            this.__Section_2_computer__Primitive_objects_array_of_structure_for_object,
-            this.__Section_3_computer__Primitive_objects_array_of_structure_for_object,
-            this.__Section_4_computer__Primitive_objects_array_of_structure_for_object,
-            this.__Section_5_computer__Primitive_objects_array_of_structure_for_object,
-            this.__Section_6_computer__Primitive_objects_array_of_structure_for_object
-        ]
-
-
+        __Table_of_sections__Primitive_objects_array_of_structure_for_object;
 
         constructor(_ID)
         {
@@ -308,6 +227,10 @@ document.addEventListener("DOMContentLoaded", () =>
 
             this.__Calculator = document.getElementById(_ID);
 
+            this.#All_the_return_of_the_massif_with_the_structure();
+
+            this.#Assembling_arrays_with_primitive_structures_and_Object_into_an_array_of_primitive_structures();
+
             this.#Configuring_All_primitive_objects();
 
             this.#Start_creating_all_html_objects();
@@ -337,7 +260,9 @@ document.addEventListener("DOMContentLoaded", () =>
             _Save_value_HTML_value
         )
         {
-            return
+
+            let Primitive_structure;
+            Primitive_structure =
             [
                 { _HTML_object_Name: _Save_value_HTML_object_Name },
                 { _HTML_object: _Save_value_Save_value__HTML_object },
@@ -345,7 +270,12 @@ document.addEventListener("DOMContentLoaded", () =>
                 { _HTML_class: _Save_value_HTML_class },
                 { _HTML_type: _Save_value_HTML_type },
                 { _HTML_value: _Save_value_HTML_value }
-            ]
+            ];
+
+            console.log('\nThe_return_of_the_massif_with_the_structure');
+            console.log('Finis');
+            
+            return Primitive_structure;
         }
 
         /*
@@ -431,6 +361,118 @@ document.addEventListener("DOMContentLoaded", () =>
             this.__Butonul_Final_product__Primitive_objects_array_of_structure_for_object =
             this.#The_return_of_the_massif_with_the_structure('__Butonul_Final_product', {}, 'input', ['__Butonul_Final_product'], 'button', '=');
 
+            this.__Section_1_computer__Primitive_objects_array_of_structure_for_object =
+            this.#The_return_of_the_massif_with_the_structure('__Section_1_computer', {}, 'input', ['__Section_1_computer'], '', '');
+
+            this.__Section_2_computer__Primitive_objects_array_of_structure_for_object =
+            this.#The_return_of_the_massif_with_the_structure('__Section_2_computer', {}, 'input', ['__Section_1_computer'], '', '');
+
+            this.__Section_3_computer__Primitive_objects_array_of_structure_for_object =
+            this.#The_return_of_the_massif_with_the_structure('__Section_3_computer', {}, 'input', ['__Section_3_computer'], '', '');
+
+            this.__Section_4_computer__Primitive_objects_array_of_structure_for_object =
+            this.#The_return_of_the_massif_with_the_structure('__Section_4_computer', {}, 'input', ['__Section_4_computer'], '', '');
+
+            this.__Section_5_computer__Primitive_objects_array_of_structure_for_object =
+            this.#The_return_of_the_massif_with_the_structure('__Section_5_computer', {}, 'input', ['__Section_5_computer'], '', '');
+
+            this.__Section_6_computer__Primitive_objects_array_of_structure_for_object =
+            this.#The_return_of_the_massif_with_the_structure('__Section_6_computer', {}, 'input', ['__Section_6_computer'], '', '');
+
+
+
+            console.log('\n-------------All_the_return_of_the_massif_with_the_structure');
+            console.log('Finis');
+        }
+
+        #Assembling_arrays_with_primitive_structures_and_Object_into_an_array_of_primitive_structures()
+        {
+            // Este tabelul de secțiuni.
+            this.__Table_of_sections_computer =
+            [
+                this.__Section_1_computer,
+                this.__Section_2_computer,
+                this.__Section_3_computer,
+                this.__Section_4_computer,
+                this.__Section_5_computer,
+                this.__Section_6_computer
+            ]
+
+            // Este tabelul secțiunilor cu parametrii pentru obiectele HTML.
+            this.__Table_of_sections__Primitive_objects_array_of_structure_for_object =
+            [
+                this.__Section_1_computer__Primitive_objects_array_of_structure_for_object,
+                this.__Section_2_computer__Primitive_objects_array_of_structure_for_object,
+                this.__Section_3_computer__Primitive_objects_array_of_structure_for_object,
+                this.__Section_4_computer__Primitive_objects_array_of_structure_for_object,
+                this.__Section_5_computer__Primitive_objects_array_of_structure_for_object,
+                this.__Section_6_computer__Primitive_objects_array_of_structure_for_object
+            ]
+
+            // Este tabelul de item.
+            this.__Computer_item_table =
+            [
+                this.__Title,
+                this.__The_minus_button,
+                this.__Maximum_button,
+                this.__Exit_button,
+                this.__We_display_what_was_written_and_the_result,
+                this.__Butonul_Percent,
+                this.__Button_CE,
+                this.__Button_C,
+                this.__Button_Remove_the_item_from_the_end_of_the_line,
+                this.__Butonul_Divided,
+                this.__Butonul_Multiplication,
+                this.__Butonul_Decreasing,
+                this.__Butonul_Assembly,
+                this.__Butonul_0,
+                this.__Butonul_1,
+                this.__Butonul_2,
+                this.__Butonul_3,
+                this.__Butonul_4,
+                this.__Butonul_5,
+                this.__Butonul_6,
+                this.__Butonul_7,
+                this.__Butonul_8,
+                this.__Butonul_9,
+                this.__Butonul_Comma,
+                this.__Butonul_Invert_the_number,
+                this.__Butonul_Final_product
+            ]
+
+            // Este tabelul item cu parametrii pentru obiectele HTML.
+            this.__Computer_item_table__Primitive_objects_array_of_structure_for_object =
+            [
+                this.__Title__Primitive_objects_array_of_structure_for_object,
+                this.__The_minus_button__Primitive_objects_array_of_structure_for_object,
+                this.__Maximum_button__Primitive_objects_array_of_structure_for_object,
+                this.__Exit_button__Primitive_objects_array_of_structure_for_object,
+                this.__We_display_what_was_written_and_the_result__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_Percent__Primitive_objects_array_of_structure_for_object,
+                this.__Button_CE__Primitive_objects_array_of_structure_for_object,
+                this.__Button_C__Primitive_objects_array_of_structure_for_object,
+                this.__Button_Remove_the_item_from_the_end_of_the_line__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_Divided__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_Multiplication__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_Decreasing__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_Assembly__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_0__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_1__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_2__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_3__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_4__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_5__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_6__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_7__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_8__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_9__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_Comma__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_Invert_the_number__Primitive_objects_array_of_structure_for_object,
+                this.__Butonul_Final_product__Primitive_objects_array_of_structure_for_object
+            ]
+
+            console.log('\nAssembling_arrays_with_primitive_structures_and_Object_into_an_array_of_primitive_structures');
+            console.log('Finis');
         }
 
         // În această funcție, volum aduna toate structurile, pentru crearea obiectelor primitive.
@@ -450,12 +492,16 @@ document.addEventListener("DOMContentLoaded", () =>
 
         #Configuring_All_primitive_objects()
         {
+            console.log('\nConfigurarea Computer item.');
             // Configurarea Computer item.
             this.#Configure_ALL_Computer_item__of_primitive_objects(this.__Computer_item_table, this.__Computer_item_table__Primitive_objects_array_of_structure_for_object);
 
+            console.log('\nConfigurarea secțiunilor.');
             // Configurarea secțiunilor.
             this.#Configure_ALL_sections_of_primitive_objects(this.__Table_of_sections_computer, this.__Table_of_sections__Primitive_objects_array_of_structure_for_object);
 
+            console.log('\nConfiguring_All_primitive_objects');
+            console.log('Finis');
         }
 
         #Configure_ALL_Computer_item__of_primitive_objects(_Table_with_Computer_item, _Table_with_Computer_item_creation_parameters)
