@@ -74,7 +74,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'h1' },
             { _HTML_class: ['__Title'] },
-            { _HTML_type: 'TEST TITLE' }
+            { _HTML_type: 'TEST TITLE' },
+            { _HTML_value: '' }
         ]
 
         // Obiectul de bază.
@@ -88,7 +89,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__The_minus_button'] },
-            { _HTML_type: 'TEST MIN BUTTON' }
+            { _HTML_type: 'TEST MIN BUTTON' },
+            { _HTML_value: '' }
         ]
          
         // Obiectul de bază.
@@ -102,7 +104,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Maximum_button'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
  
         // Obiectul de bază.
@@ -116,7 +119,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Exit_button'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
  
         // Obiectul de bază.
@@ -130,7 +134,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'span' },
             { _HTML_class: ['__We_display_what_was_written_and_the_result'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
  
         // Obiectul de bază.
@@ -144,7 +149,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Button_CE'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
  
         // Obiectul de bază.
@@ -158,7 +164,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Button_C'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
  
         // Obiectul de bază.
@@ -172,7 +179,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Button_Remove_the_item_from_the_end_of_the_line'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
 
         /*
@@ -191,7 +199,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Percent'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
  
         // Obiectul de bază. 
@@ -206,7 +215,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Divided'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
  
         // Obiectul de bază. 
@@ -221,7 +231,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Multiplication'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
  
         // Obiectul de bază. 
@@ -236,7 +247,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Decreasing'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
  
         // Obiectul de bază. 
@@ -251,7 +263,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Assembly'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
 
         // Obiectul de bază. 
@@ -266,7 +279,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_0'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
         
         // Obiectul de bază. 
@@ -281,7 +295,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_1'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
         
         // Obiectul de bază. 
@@ -296,7 +311,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_2'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
         
         // Obiectul de bază. 
@@ -311,7 +327,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_3'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
         
         // Obiectul de bază. 
@@ -326,7 +343,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_4'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
         
         // Obiectul de bază. 
@@ -341,7 +359,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_5'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
         
         // Obiectul de bază. 
@@ -356,7 +375,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_6'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
         
         // Obiectul de bază. 
@@ -371,7 +391,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_7'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
         
         // Obiectul de bază. 
@@ -386,7 +407,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_8'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
         
         // Obiectul de bază. 
@@ -401,7 +423,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_9'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
                 
         // Obiectul de bază. 
@@ -416,10 +439,11 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Invert_the_number'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
 
-        // Obiectul de bază. 
+        // Obiectul de bază.
         // ,
         __Butonul_Comma;         
         //-----------------------------------------------
@@ -431,12 +455,13 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Comma'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
 
         // Obiectul de bază.
         // =
-        __Butonul_Final_product;         
+        __Butonul_Final_product;
         //-----------------------------------------------
         // Structura pentru crearea obiectelor primitive.
         // Masivul pentru structuri.
@@ -446,7 +471,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'input' },
             { _HTML_class: ['__Butonul_Final_product'] },
-            { _HTML_type: 'TTTTTTT' }
+            { _HTML_type: 'TTTTTTT' },
+            { _HTML_value: '' }
         ]
 
         __Computer_item_table =
@@ -521,7 +547,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'section' },
             { _HTML_class: ['__Section_1_computer'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
 
         // Obiectul de bază. 
@@ -536,7 +563,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'section' },
             { _HTML_class: ['__Section_2_computer'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
 
         // Obiectul de bază. 
@@ -551,7 +579,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'section' },
             { _HTML_class: ['__Section_3_computer'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
 
         // Obiectul de bază. 
@@ -566,7 +595,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'section' },
             { _HTML_class: ['__Section_3_computer'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
 
         // Obiectul de bază. 
@@ -581,7 +611,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'section' },
             { _HTML_class: ['__Section_4_computer'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
 
         // Obiectul de bază. 
@@ -596,7 +627,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'section' },
             { _HTML_class: ['__Section_5_computer'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
 
         // Obiectul de bază. 
@@ -611,7 +643,8 @@ document.addEventListener("DOMContentLoaded", () =>
             { _HTML_object: {} },
             { _HTML_tags: 'section' },
             { _HTML_class: ['__Section_6_computer'] },
-            { _HTML_type: '' }
+            { _HTML_type: '' },
+            { _HTML_value: '' }
         ]
 
         // Este tabelul de secțiuni.
