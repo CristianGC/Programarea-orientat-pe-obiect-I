@@ -637,7 +637,7 @@ document.addEventListener("DOMContentLoaded", () =>
         //-----------------------------------------------
         // Structura pentru crearea obiectelor primitive.
         // Masivul pentru structuri.
-        __Section_6_computer__Primitive_objects_array_of_structure_for_object =
+        __Section_6_computer__Primitive_objects_array_of_structure_for_object = 
         [
             { _HTML_object_Name: '__Section_6_computer' },
             { _HTML_object: {} },
@@ -668,6 +668,27 @@ document.addEventListener("DOMContentLoaded", () =>
             this.__Section_5_computer__Primitive_objects_array_of_structure_for_object,
             this.__Section_6_computer__Primitive_objects_array_of_structure_for_object
         ]
+
+        #The_return_of_the_massif_with_the_structure
+        (
+            _Save_value_HTML_object_Name,
+            _Save_value_Save_value__HTML_object,
+            _Save_value_HTML_tags,
+            _Save_value_HTML_class,
+            _Save_value_HTML_type,
+            _Save_value_HTML_value
+        )
+        {
+            return
+            [
+                { _HTML_object_Name: _Save_value_HTML_object_Name },
+                { _HTML_object: _Save_value_Save_value__HTML_object },
+                { _HTML_tags: _Save_value_HTML_tags },
+                { _HTML_class: _Save_value_HTML_class },
+                { _HTML_type: _Save_value_HTML_type },
+                { _HTML_value: _Save_value_HTML_value }
+            ]
+        }
 
         constructor(_ID)
         {
@@ -926,7 +947,7 @@ document.addEventListener("DOMContentLoaded", () =>
     new Calculator('Calculator');
 
 
-
+    
 });
 
 
