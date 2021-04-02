@@ -862,19 +862,21 @@ document.addEventListener("DOMContentLoaded", () =>
         {
             _Computer_item_array.array.forEach(element =>
             {
-                if (element._HTML_type != '') 
-                {
-                    element._HTML_object.setAttribute("type", element._HTML_type);   
-                }
+                this.#Check_if_we_can_add_type_to_html_Object(element);
             });
 
             _Section_array.array.forEach(element =>
             {
-                if (element._HTML_type != '')
-                {
-                    element._HTML_object.setAttribute("type", element._HTML_type);   
-                }
+                this.#Check_if_we_can_add_type_to_html_Object(element);
             });
+        }
+
+        #Check_if_we_can_add_type_to_html_Object(_The_primitive_object)
+        {
+            if (_The_primitive_object._HTML_type != '')
+            {
+                _The_primitive_object._HTML_object.setAttribute("type", _The_primitive_object._HTML_type);   
+            }
         }
 
     }
