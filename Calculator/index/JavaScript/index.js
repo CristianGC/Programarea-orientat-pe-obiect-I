@@ -819,7 +819,7 @@ document.addEventListener("DOMContentLoaded", () =>
         
         /*
             P1: Index Section.
-            P2: Table Sections.
+            P2: Section array.
             P3: Computer Item Table.
             P4: Index Start Computer Item Table.
             P5: Index Stop Computer Item Table.
@@ -827,7 +827,7 @@ document.addEventListener("DOMContentLoaded", () =>
         #Add_the_computer_item_to_the_selection
         (   
             _Index_section,
-            _Table_sections,
+            _Section_array,
             _Computer_item_table,
             _Index_Start_Computer_item_table,
             _Index_Stop_Computer_item_table
@@ -836,17 +836,17 @@ document.addEventListener("DOMContentLoaded", () =>
             console.log('\n\nAdd_the_computer_item_to_the_selection: \n');
             for (let index = _Index_Start_Computer_item_table; index <= _Index_Stop_Computer_item_table; index++)
             {
-                _Table_sections[_Index_section]._HTML_object.appendChild(_Computer_item_table[index]._HTML_object);
+                _Section_array[_Index_section]._HTML_object.appendChild(_Computer_item_table[index]._HTML_object);
             }
             console.log('Sections: ' + _Index_section);
-            console.log(_Table_sections[_Index_section]);
+            console.log(_Section_array[_Index_section]);
         }
 
         #Add_the_computer_item_to_all_selections()
         {
             /*
                 P1: Index Section.
-                P2: Table Sections.
+                P2: Section array.
                 P3: Computer Item Table.
                 P4: Index Start Computer Item Table.
                 P5: Index Stop Computer Item Table.
@@ -858,7 +858,24 @@ document.addEventListener("DOMContentLoaded", () =>
 
         }
 
-        
+        #Add_the_type_attribute_to_all_HTML_elements(_Computer_item_array, _Section_array)
+        {
+            _Computer_item_array.array.forEach(element =>
+            {
+                if (element._HTML_type != '') 
+                {
+                    element._HTML_object.setAttribute("type", element._HTML_type);   
+                }
+            });
+
+            _Section_array.array.forEach(element =>
+            {
+                if (element._HTML_type != '')
+                {
+                    element._HTML_object.setAttribute("type", element._HTML_type);   
+                }
+            });
+        }
 
     }
 
