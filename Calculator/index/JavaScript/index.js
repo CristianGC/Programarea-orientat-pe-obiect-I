@@ -9,26 +9,6 @@ document.addEventListener("DOMContentLoaded", () =>
         După un timp, mi-am dat seama că vreau să fac o clasă specială doar pentru trimiterea de mesaje.
     */
 
-    class User
-    {
-        constructor(name)
-        {
-            this.name = name;
-        }
-    }
-
-    let Voce = 
-    {
-        Salut()
-        {
-            console.log( 'Salut ma numesc: ' + this.name );
-        }
-    }
-
-    Object.assign(User.prototype, Voce);
-
-    new User('Cristian').Salut();
-
 //------------------------------------------------------------------------------------------------------------------
 
     class Calculator
